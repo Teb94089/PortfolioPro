@@ -64,10 +64,10 @@ export default function Profile() {
                     </span>
                 </div>
                 <div className='profile-options'>
-                    <button className='btn primary-btn'
-                     onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+                    <button className='btn primary-btn'>
+                     
                         
-                        >{" "}Hire Me{""}
+                        {" "}Hire Me{""}
                     </button>
                     <a href="YolandaCV.pdf" download='YolandaCV.pdf'>
                     <button className='btn highlighted-btn'>Get Resume</button>
