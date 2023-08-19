@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import Typical from 'react-typical';
+import Typewriter from "react-simple-typewriter"; // Make sure the import path is correct
 import axios from 'axios'
 import {toast} from 'react-toastify'
 
@@ -72,7 +72,7 @@ export default function Contactme(props) {
                 <div className='col'>
                 <h2 className='title'>
                     
-                        <Typical loop={Infinity} steps={["Get In Touch 📧", 1000]} />
+                        <Typewriter loop={Infinity} steps={["Get In Touch 📧", 1000]} />
                 </h2>
 
                     <a href='https://www.facebook.com/mamkhiwa.mbalentle/'>
