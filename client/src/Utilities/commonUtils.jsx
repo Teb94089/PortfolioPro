@@ -1,5 +1,13 @@
 import Home from '../PortfolioContainer/Home/Home';
 import AboutMe from '../PortfolioContainer/AboutMe/AboutMe'
+<<<<<<< HEAD
+=======
+import Resume from '../PortfolioContainer/Resume/Resume'
+import Testimonial from '../PortfolioContainer/Testimonial/Testimonial';
+import ContactMe from '../PortfolioContainer/ContactMe/ContactMe'
+import Projects from '../PortfolioContainer/Projects/Projects'
+
+>>>>>>> 01789f1726c68536e7fce96d20cd111b1fd96e45
 export const TOTAL_SCREENS = [
     {
         screen_name: "Home",

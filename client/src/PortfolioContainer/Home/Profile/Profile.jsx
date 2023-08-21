@@ -7,12 +7,26 @@ import "./Profile.css";
 
 export default function Profile() {
 
+<<<<<<< HEAD
     const {typeEffect}= useTypewriter({
       words:[ "Enthusiastic Dev 😎", "Full stack Developer 💻","Quality Assurer💻", "Cross Platform Dev 🔴", "React/React Native 🌐"],
       loop:{},
       typeSpeed:100,
       deleteSpeed:50
     })
+=======
+    // Define the handleDone function to be called when the loop is done
+  const handleDone = () => {
+    // Handle what should happen when the loop is done
+    console.log("Typewriter loop done");
+  };
+
+  // Define the handleType function to be called when each character is typed
+  const handleType = (text) => {
+    // Handle what should happen when each character is typed
+    console.log(`Typing: ${text}`);
+  };
+>>>>>>> 01789f1726c68536e7fce96d20cd111b1fd96e45
 
   return (
     <div className="profile-container">
@@ -53,8 +67,32 @@ export default function Profile() {
               {" "}
               <h1>
                 {" "}
+<<<<<<< HEAD
                 {typeEffect}
                  
+=======
+                <Typewriter
+                  words={[
+                    "Enthusiastic Dev 😎",
+
+                    "Full stack Developer 💻",
+
+                    "Quality Assurer💻",
+
+                    "Cross Platform Dev 🔴",
+
+                    "React/React Native 🌐",
+                  ]}
+                  loop={6}
+                  cursor
+                  cursorStyle="_"
+                  typeSpeed={70}
+                  deleteSpeed={50}
+                  delaySpeed={1000}
+                  onLoopDone={handleDone}
+                  onType={handleType}
+                />
+>>>>>>> 01789f1726c68536e7fce96d20cd111b1fd96e45
               </h1>
             </span>
             <span className="profile-role-tagline">
