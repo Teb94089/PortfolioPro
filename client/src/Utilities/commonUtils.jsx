@@ -1,9 +1,9 @@
 import Home from '../PortfolioContainer/Home/Home';
-import AboutMe from '../PortfolioContainer/AboutMe/AboutMe';
-import Resume from '../PortfolioContainer/Resume/Resume';
+import AboutMe from '../PortfolioContainer/AboutMe/AboutMe'
+import Resume from '../PortfolioContainer/Resume/Resume'
 import Testimonial from '../PortfolioContainer/Testimonial/Testimonial';
-import ContactMe from '../PortfolioContainer/ContactMe/ContactMe';
-import Projects from '../PortfolioContainer/Projects/Projects';
+import ContactMe from '../PortfolioContainer/ContactMe/ContactMe'
+import Projects from '../PortfolioContainer/Projects/Projects'
 
 export const TOTAL_SCREENS = [
     {
