@@ -1,21 +1,17 @@
 
-
-import PropTypes from "prop-types";
-import Profile from "./profile/Profile";
-import Footer from "./Footer/Footer";
+import React from "react";
+import Header from "./Header/Header"
+import Profile from  "./Profile/Profile";
+import Footer from "./Footer/Footer"
 import "./Home.css";
 
-function Home(props) {
+export default function Home(props) {
   return (
     <div className="home-container" id={props.id || ""}>
+      <Header />
       <Profile />
       <Footer />
     </div>
   );
 }
 
-Home.propTypes = {
-  id: PropTypes.string, // Add the prop validation for 'id'
-};
-
-export default Home;

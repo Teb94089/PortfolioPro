@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
-import ScreenHeading from "../../utilities/ScreenHeading/ScreenHeading";
-import ScrollService from "../../utilities/ScrollService";
-import Animations from "../../utilities/Animations";
+import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
+import ScrollService from '../../Utilities/ScrollService'
+import Animations from "../../Utilities/Animations";
 import "./AboutMe.css";
 
 export default function AboutMe(props) {

@@ -1,5 +1,5 @@
 
-import { TOTAL_SCREENS } from '../utilities/commonUtils'
+import { TOTAL_SCREENS } from '../Utilities/commonUtils';
 
 export default function PortfolioContainer() {
   const mapAllScreens = ()=>{
