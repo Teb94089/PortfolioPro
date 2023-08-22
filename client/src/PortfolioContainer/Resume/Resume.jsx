@@ -328,7 +328,7 @@ const Resume = (props) => {
       setSelectedBulletIndex(index);
     };
 
-  const getBullets = () => {
+    const getBullets = () => {
       return resumeBullets.map((bullet, index) => (
         <div
           onClick={() => handleCarousal(index)}
@@ -339,13 +339,14 @@ const Resume = (props) => {
         >
           <img
             className="bullet-logo"
-            src={require(`../../assets/Resume/${bullet.logoSrc}`)}
+            src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
             alt="B"
           />
           <span className="bullet-label">{bullet.label}</span>
         </div>
       ));
     };
+    
 
   const getResumeScreens = () => {
       return (
