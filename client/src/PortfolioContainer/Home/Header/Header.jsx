@@ -3,6 +3,8 @@ import {TOTAL_SCREENS, GET_SCREEN_INDEX} from '../../../Utilities/commonUtils';
 import ScrollService from '../../../Utilities/ScrollService';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+
+import logo from '../../../assets/header/logo-Y.png';
 import './Header.css';
 
 export default function Header() {
@@ -58,6 +60,9 @@ export default function Header() {
                         <FontAwesomeIcon className='header-hamburger-bars ' icon={faBars}/>
                     </div>
                     <div className='header-logo '>
+                        <span>
+                        <img src={logo} alt="image not responding" />
+                        </span>
                     </div>
                     <div className={(showHeaderOptions) 
                         ? "header-options show-hamburger-options"

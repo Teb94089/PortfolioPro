@@ -10,6 +10,7 @@ export default function Profile() {
     const {typeEffect}= useTypewriter({
       words:[ "Enthusiastic Dev 😎", "Full stack Developer 💻","Quality Assurer💻", "Cross Platform Dev 🔴", "React/React Native 🌐"],
       loop:{},
+      Curse,
       typeSpeed:100,
       deleteSpeed:50
     })
@@ -49,6 +50,7 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-details-role">
+          <span className="primary-text">
             <span> 
               {" "}
               <h1>
@@ -56,6 +58,7 @@ export default function Profile() {
                 {typeEffect}
           
               </h1>
+            </span>
             </span>
             <span className="profile-role-tagline">
               Knack of building applications with front and back end operations.
