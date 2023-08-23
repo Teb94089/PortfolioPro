@@ -1,38 +1,49 @@
 .header-container {
-    display:flex;
-    justify-content:center;
-    height: 149px;
-    color: var(--white);
-    
-  }
-  /*contantme nav*/
-  .header-parent {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 100%;
-    width: 70%;
-    color:#1f2235;
-  }
-  .header-logo {
-    font-family: "OstrichSans Black";
-    color: #fff;
-
-    position:relative;
-    left:-400px;
-    z-index:50;
-    height: 2px;
-    width: 2px;
-    size: 20px;
-    padding: top 100%;;
+  display:flex;
+  justify-content:center;
+  height: 149px;
+  color: var(--white);
+  position: sticky;
+  top: 0;
+  background-color:gray; /* Add background color to the sticky header */
+  z-index:100; /* Adjust the z-index to layer the header appropriately */
   
-    border:none;
+}
+/*contantme nav*/
+.header-parent {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+  width: 70%;
+  color:#1f2235;
+  padding-top: 10px;
+  position: sticky;
 
-  }
- .img{
-    width:10px;
-    height:10px;            ;
-  }
+
+}
+.header-parent,.header-logo {
+ display: flex;
+ position: sticky;
+}
+
+.header-logo {
+  font-family: "OstrichSans Black";
+
+  position:relative;
+  left:-200px;
+  z-index:50;
+  height: 70px;
+  width: 70px;
+  padding-top:10px;
+  border:none;
+
+}
+.img{
+  width:450px;
+  height:450px;            ;
+}
+
   
   .second-title {
     font-size: 60px;
@@ -48,7 +59,7 @@
   }
   /*contact*/
   .header-option {
-    font-size: 16px;
+    font-size: 22px;
     cursor: pointer;
     font-weight: 800;
   

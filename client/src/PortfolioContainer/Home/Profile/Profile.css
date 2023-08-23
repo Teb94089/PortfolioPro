@@ -26,7 +26,7 @@
     font-family:cursive ;
 }
 .primary-text{
-   color:mediumturquoise ;
+   color:rgb(8, 46, 80);
 }
 .highlighted-text{
     color: var(--dark-orange);
@@ -70,7 +70,7 @@
 
 }
 .colz .colz-icon i{
-    color: white;
+    color:rgb(8, 46, 80);
     padding: 8px;
     padding-left: 0px;
 }

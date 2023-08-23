@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../Utilities/ScrollService'
 import Animations from "../../Utilities/Animations";
+
 import "./AboutMe.css";
 
 export default function AboutMe(props) {
@@ -49,7 +50,9 @@ export default function AboutMe(props) {
     <div
       className="about-me-container screen-container fade-in "
       id={props.id || ""}
+      
     >
+      
       <div className="about-me-parent ">
         <ScreenHeading title={"About Me"} subHeading={"My Portfolio Overview"} />
         <div className="about-me-card ">

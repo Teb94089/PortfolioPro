@@ -4,7 +4,7 @@ import ScrollService from '../../../Utilities/ScrollService';
 import {faBars} from '@fortawesome/free-solid-svg-icons';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 
-import logo from '../../../assets/header/logo-Y.png';
+import logo from '../../../assets/header/logo.png';
 import './Header.css';
 
 export default function Header() {
@@ -65,8 +65,8 @@ export default function Header() {
                         </span>
                     </div>
                     <div className={(showHeaderOptions) 
-                        ? "header-options show-hamburger-options"
-                        : "header-options"}>
+                        ? "header-options show-hamburger-options header-logo"
+                        : "header-options"} >
                         {getHeaderOptions()}
                     </div>
                 </div>

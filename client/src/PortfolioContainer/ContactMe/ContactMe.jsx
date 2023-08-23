@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { useTypewriter,Curse } from "react-simple-typewriter";
-import Typewriter from "react-simple-typewriter"; // Make sure the import path is correct
+import Typewriter from "typewriter-effect";
+import GraphemeSplitter from "grapheme-splitter";
 import { toast } from "react-toastify";
 
 import imgBack from "../../../src/images/mailz.jpeg";
@@ -11,12 +11,12 @@ import Animations from "../../Utilities/Animations";
 import "./ContactMe.css";
 
 export default function Contactme(props) {
-  const { typeEffect } = useTypewriter({
-    words: ["Get In Touch 📧"],
-    loop: {},
-    typeSpeed: 100,
-    deleteSpeed: 50,
-  });
+  const stringSplitter = (string)=>{
+    const splitter = new GraphemeSplitter();
+    return splitter.splitGraphemes(string);
+
+   }
+
 
   let fadeInScreenHandler = (screen) => {
     if (screen.fadeInScreen !== props.id) return;
@@ -78,9 +78,21 @@ export default function Contactme(props) {
         <div className="col">
           <span>
             <h2 className='title'> 
-                {typeEffect}
+            <Typewriter
+                  options={{
+                  strings:["Get In Touch"],
+                  
+
+                  delay: 150,
+                  pauseFor: 1500,
+                  autoStart: true,
+                  loop: true,
+                  stringSplitter: stringSplitter,
+                }}
+                />
             </h2>
           </span>
+
 
           <a href="https://www.facebook.com/mamkhiwa.mbalentle/">
             <i className="fa fa-facebook"></i>

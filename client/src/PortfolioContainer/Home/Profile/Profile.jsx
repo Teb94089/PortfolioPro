@@ -1,19 +1,17 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-import { useTypewriter,Curse } from "react-simple-typewriter";
-import Typewriter from "react-simple-typewriter"; // Make sure the import path is correct
+import Typewriter from "typewriter-effect";
+import GraphemeSplitter from "grapheme-splitter";
 import ScrollService from '../../../Utilities/ScrollService';
 import "./Profile.css";
 
 export default function Profile() {
 
-    const {typeEffect}= useTypewriter({
-      words:[ "Enthusiastic Dev 😎", "Full stack Developer 💻","Quality Assurer💻", "Cross Platform Dev 🔴", "React/React Native 🌐"],
-      loop:{},
-      Curse,
-      typeSpeed:100,
-      deleteSpeed:50
-    })
+   const stringSplitter = (string)=>{
+    const splitter = new GraphemeSplitter();
+    return splitter.splitGraphemes(string);
+
+   }
 
   return (
     <div className="profile-container">
@@ -50,16 +48,36 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-details-role">
-          <span className="primary-text">
-            <span> 
-              {" "}
-              <h1>
-                {" "}
-                {typeEffect}
+           
+          <span className='primary-text'>
           
-              </h1>
-            </span>
-            </span>
+                        {" "}
+                        <h1>
+                            {" "}
+                            <Typewriter
+                  options={{
+                  strings:[
+                    "Enthusiastic Dev 😎",
+                    
+                    "Full stack Developer 💻",
+                    
+                    "Quality Assurer💻",
+                    
+                    "Cross Platform Dev 🔴",
+                    
+                    "React/React Native 🌐",
+                    
+                  ],
+                  delay: 150,
+                  pauseFor: 1500,
+                  autoStart: true,
+                  loop: true,
+                  stringSplitter: stringSplitter,
+                }}
+                />
+                        </h1>
+                        </span>
+                  
             <span className="profile-role-tagline">
               Knack of building applications with front and back end operations.
             </span>
