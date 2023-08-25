@@ -4,6 +4,16 @@ import ScrollService from '../../Utilities/ScrollService';
 import Animations from '../../Utilities/Animations';
 import "./Resume.css";
 
+import EducationIcon from '../../assets/Resume/education.svg';
+import WorkHistoryIcon from '../Resume/work-history.svg';
+import ProgrammingSkillsIcon from '../Resume/programming-skills.svg';
+import ApplicationSkillsIcon from '../Resume/application-skills.svg';
+import ProjectsIcon from '../Resume/projects.svg';
+import InterestsIcon from '../Resume/interests.svg';
+
+// Import other SVG files here
+
+
 
 const Resume = (props) => {
   const [selectedBulletIndex, setSelectedBulletIndex] = useState(0)
@@ -39,14 +49,22 @@ const Resume = (props) => {
         </div>
       );
     };
-  
-  const resumeBullets = [
-      { label: "Education", logoSrc: "education.svg" },
-      { label: "Work History", logoSrc: "work-history.svg" },
-      { label: "Programming Skills", logoSrc: "programming-skills.svg" },
-      { label: "Application Skills", logoSrc: "programming-skills.svg" },
-      { label: "Projects", logoSrc: "projects.svg" },
-      { label: "Interests", logoSrc: "interests.svg" },
+    //const bulletSvgMap = {//
+      //'Education': EducationIcon,
+      //'Work History': WorkHistoryIcon,
+      //'Programming Skills': ProgrammingSkillsIcon,
+      //'Application Skills': ApplicationSkillsIcon,
+      //'Projects': ProjectsIcon,
+      //'Interests': InterestsIcon,
+      // Add other labels and SVG components to the map
+    //};//}
+    const resumeBullets = [
+      { label: "Education", EducationIcon: "education.svg" },
+      { label: "Work History", WorkHistoryIcon: "work-history.svg" },
+      { label: "Programming Skills", ProgrammingSkillsIcon: "programming-skills.svg" },
+      { label: "Application Skills", ApplicationSkillsIcon: "application-skills.svg" },
+      { label: "Projects", ProjectsIcon: "projects.svg" },
+      { label: "Interests", InterestsIcon: "interests.svg" },
     ];
   
   const programmingSkillsDetails = [
@@ -337,15 +355,22 @@ const Resume = (props) => {
           }
           key={index}
         >
-          <img
-            className="bullet-logo"
-            src={require(`../../assets/Resume/${bullet.logoSrc}`).default}
-            alt="B"
-          />
+             {/* Use corresponding SVG component based on the bullet 
+        //{bullet.label === 'Education' && <EducationIcon className="bullet-logo" />}
+       // {bullet.label === 'Work History' && <WorkHistoryIcon className="bullet-logo" />}
+        {bullet.label === 'Programming Skills' && <ProgrammingSkillsIcon className="bullet-logo" />}
+        {bullet.label === 'Application Skills' && <ApplicationSkillsIcon className="bullet-logo" />}
+        {bullet.label === 'Projects' && <ProjectsIcon className="bullet-logo" />}
+        {bullet.label === 'Interests' && <InterestsIcon className="bullet-logo" />}
+        
+        {/* Use other SVG components similarly */}
+        
           <span className="bullet-label">{bullet.label}</span>
         </div>
-      ));
-    };
+      ))}
+    ;
+    
+    
     
 
   const getResumeScreens = () => {

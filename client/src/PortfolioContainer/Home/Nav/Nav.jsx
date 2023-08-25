@@ -27,11 +27,15 @@ export default function Nav() {
             <a href="#AboutMe">About me</a>
           </li>
           <li>
+            <a href="#Resume">Resume</a>
+          </li>
+          <li>
             <a href="#Projects">Projects</a>
           </li>
           <li>
             <a href="#ContactMe">Contact</a>
           </li>
+         
         </ul>
       </div>
     </div>
