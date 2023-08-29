@@ -16,7 +16,7 @@ export default function AboutMe(props) {
 
   const SCREEN_CONSTSANTS = {
     description:
-      "QA Engineer(Software Automation Tester) with Software Development background. Have a small business(Forever Living Products). An enthusiast for new technology and development. ",
+      "I am an experienced Software Developer and Quality Assurance professional with a robust background in both fields.  My enthusiasm for embracing new technologies and development methodologies underscores my commitment to staying at the forefront of innovation in both fields. With a balanced skill set, I contribute effectively to software development and testing endeavors, ensuring seamless integration and optimal performance. ",
     highlights: {
       bullets: [
         "Proficient in Selenium for web automation testing",
@@ -56,11 +56,16 @@ export default function AboutMe(props) {
       <div className="about-me-parent ">
         <ScreenHeading title={"About Me"} subHeading={"My Portfolio Overview"} />
         <div className="about-me-card ">
-          <div className="about-me-profile "></div>
-          <div className="about-me-details ">
-            <span className="about-me-description ">
+        
+        <div className="about-me-profile">
+          <div className="profile-pictureA-background"></div>
+          <h2><u>What I do</u></h2>
+          <span className="about-me-description ">
               {SCREEN_CONSTSANTS.description}
             </span>
+        </div>
+          <div className="about-me-details ">
+            
             <div className="about-me-highlights ">
               <div className="highlight-heading ">
                 <span>{SCREEN_CONSTSANTS.highlights.heading}</span>

@@ -1,4 +1,5 @@
 .section-projects {
+  background-image: url('../../assets//Home/bg.jpg');
   padding-top: 30px;
   .projects-container {
     width: 80%;
@@ -8,6 +9,7 @@
     @media only screen and (max-width: 1300px) {
       width: 94%;
       margin-left: 3%;
+     
     }
   }
   
@@ -16,15 +18,15 @@
    
   }
   .tech-ico1{
-    width: 100px;
-    height:100px
+    width: 50px;
+    height:50px
    
    
    
   }
   .tech-ico2{
-    width: 100px;
-    height:100px;
+    width: 50px;
+    height:50px;
  
   }
   .liveIco{
@@ -52,7 +54,7 @@
   }
   .project-title {
     padding: 10px 0px 20px 20px;
-    background-color:tomato;
+    background-color:lightblue;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     color: #28363d;

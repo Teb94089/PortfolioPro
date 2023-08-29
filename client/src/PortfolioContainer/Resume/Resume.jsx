@@ -4,13 +4,12 @@ import ScrollService from '../../Utilities/ScrollService';
 import Animations from '../../Utilities/Animations';
 import "./Resume.css";
 
-import EducationIcon from '../../assets/Resume/education.svg';
-import WorkHistoryIcon from '../Resume/work-history.svg';
-import ProgrammingSkillsIcon from '../Resume/programming-skills.svg';
-import ApplicationSkillsIcon from '../Resume/application-skills.svg';
-import ProjectsIcon from '../Resume/projects.svg';
-import InterestsIcon from '../Resume/interests.svg';
-
+import logoSrcE from '../Resume/education.png';
+import logoSrcW from '../Resume/work-history.png';
+import logoSrcP from '../Resume/programming.png';
+import logoSrcA from '../Resume/programming.png';
+import logoSrcPr from '../Resume/projects.png';
+import logoSrcI from '../Resume/interests.png';
 // Import other SVG files here
 
 
@@ -58,14 +57,16 @@ const Resume = (props) => {
       //'Interests': InterestsIcon,
       // Add other labels and SVG components to the map
     //};//}
+    
     const resumeBullets = [
-      { label: "Education", EducationIcon: "education.svg" },
-      { label: "Work History", WorkHistoryIcon: "work-history.svg" },
-      { label: "Programming Skills", ProgrammingSkillsIcon: "programming-skills.svg" },
-      { label: "Application Skills", ApplicationSkillsIcon: "application-skills.svg" },
-      { label: "Projects", ProjectsIcon: "projects.svg" },
-      { label: "Interests", InterestsIcon: "interests.svg" },
+      { label: "Education", logoSrc: logoSrcE },
+      { label: "Work History", logoSrc: logoSrcW },
+      { label: "Programming Skills", logoSrc: logoSrcP },
+      { label: "Application Skills", logoSrc: logoSrcA },
+      { label: "Projects", logoSrc: logoSrcPr },
+      { label: "Interests", logoSrc: logoSrcI },
     ];
+  
   
   const programmingSkillsDetails = [
       { skill: "Python", ratingPercentage: 65 },
@@ -355,16 +356,13 @@ const Resume = (props) => {
           }
           key={index}
         >
-             {/* Use corresponding SVG component based on the bullet 
-        //{bullet.label === 'Education' && <EducationIcon className="bullet-logo" />}
-       // {bullet.label === 'Work History' && <WorkHistoryIcon className="bullet-logo" />}
-        {bullet.label === 'Programming Skills' && <ProgrammingSkillsIcon className="bullet-logo" />}
-        {bullet.label === 'Application Skills' && <ApplicationSkillsIcon className="bullet-logo" />}
-        {bullet.label === 'Projects' && <ProjectsIcon className="bullet-logo" />}
-        {bullet.label === 'Interests' && <InterestsIcon className="bullet-logo" />}
+             {/*Use corresponding SVG component based on the bullet*/ }
+
+             <img src={bullet.logoSrc} alt={`${bullet.label} icon`} className="bullet-logo" />
         
         {/* Use other SVG components similarly */}
         
+          
           <span className="bullet-label">{bullet.label}</span>
         </div>
       ))}
