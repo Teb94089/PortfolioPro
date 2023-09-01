@@ -1,10 +1,13 @@
 import React, { useState } from "react";
-import page2 from "../Projects/public/img/page2.png";
+import page2 from "../Projects/public/img/mzamo.png";
 import cssIco from "../Projects/public/img/css.png";
 import reactIco from "../Projects/public/img/react.png";
 import gitIco from "../Projects/public/img/githubIco.png";
 import liveIco from "../Projects/public/img/live.png";
 import firebaseIco from "../Projects/public/img/firebase.png";
+import htmlIco from "../Projects/public/img/html.png";
+import jsIco from "../Projects/public/img/js.png";
+import bootIco from "../Projects/public/img/bootstrap.png";
 
 export default function Project2() {
   const [html, setHtml] = useState("");
@@ -44,65 +47,63 @@ export default function Project2() {
   return (
     <div className="project-box">
       <div className="right-container">
-        <h1>Qaqamba Project</h1>
+        <h1>WSU Online System Project</h1>
         <div className="description">
-          "Pizza Event" is an application used to sign up for an event for pizza
-          lovers. The user can create an account and log in to it.
-          Authentication is performed by Firebase. Subsequently, the
-          authenticated user has the option to sign up for the event through the
-          submission form. User data is stored in local storage. A list of
-          enrolled users is also available in the application. The application
-          is written for mobile and desktop users.
-          <div className="row">
+        I have designed and developed an online system for Walter Sisulu University (WSU) 
+        that facilitates a range of functionalities to support student interactions 
+        and administrative processes. This comprehensive platform empowers users to 
+        seamlessly enroll for study programs, apply for transportation and accommodation services,
+         complete registration procedures, and manage debt payments. The system is underpinned by a 
+         robust technology stack, utilizing HTML, CSS, and JavaScript for the frontend interface, 
+        while employing PHP and MySQL as the backend infrastructure for data management.
           <div className="tech-box">
-          
-          <div className="col-lg-8">
+          <div className="row">
             <div
-              className="single-box"
-              id="React"
+              className="single-box"id="React"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={reactIco} className="tech-ico1" alt="html icon" />
-              <span>{react ? "React" : ""}</span>
-            </div>
+              <img src={htmlIco} className="tech-ico1" alt="html icon" />
+              <span>{html ? "HTML" : "HTML"}</span>
             </div>
             
-            <div className="col-lg-8">
-            <div
-              className="single-box"
-              id="CSS"
+            <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={cssIco} className="tech-ico2" alt="css icon" />
-              <span>{css ? "CSS/SCSS" : ""}</span>
+              <img src={cssIco} className="tech-ico2" alt="html icon" />
+              <span>{css ? "CSS" : "CSS"}</span>
             </div>
-            </div>
-
-            <div className="col-lg-8">
-            <div
-              className="single-box"
-              id="Firebase"
+            <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img
-                src={firebaseIco}
-                className="tech-ico1"
-                alt="firebase icon"
-              />
-              <span>{firebase ? "Firebase" : ""}</span>
+              <img src={jsIco} className="tech-ico2" alt="html icon" />
+              <span>{css ? "JavaScript" : "JavaScript"}</span>
+            </div>
+            <div className="single-box" id="CSS"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={bootIco} className="tech-ico2" alt="html icon" />
+              <span>{css ? "Bootstrap" : "Bootstrap"}</span>
             </div>
           </div>
           </div>
-          </div>
+        
+  
           <div className="links">
-            <a href="https://github.com/PPrzebieda/pizza-event" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/PPrzebieda/exclusive-car-rental"
+              target="blank"
+            >
               <img src={gitIco} className="liveIco" alt="github icon" />
               <span>GitHub</span>
             </a>
-            <a href="https://pprzebieda.github.io/pizza-event/" target="_blank" rel="noreferrer">
+            <a
+              href="https://pprzebieda.github.io/exclusive-car-rental/"
+              target="_blank" rel="noreferrer"
+            >
               <img
                 src={liveIco}
                 className="liveIco"
@@ -112,8 +113,9 @@ export default function Project2() {
               <span>Live Demo</span>
             </a>
           </div>
-        </div>
-      </div>
+          </div>
+          </div>
+     
       <div className="left-container">
         <img src={page2} className="img-project2" />
       </div>

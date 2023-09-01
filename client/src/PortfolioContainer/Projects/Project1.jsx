@@ -4,6 +4,10 @@ import cssIco from "../Projects/public/img/css.png";
 import reactIco from "../Projects/public/img/react.png";
 import gitIco from "../Projects/public/img/githubIco.png";
 import liveIco from "../Projects/public/img/live.png";
+import htmlIco from "../Projects/public/img/html.png";
+
+import jsIco from "../Projects/public/img/js.png";
+import bootIco from "../Projects/public/img/bootstrap.png";
 
 export default function Project1() {
   const [html, setHtml] = useState("");
@@ -44,41 +48,47 @@ export default function Project1() {
       <div className="right-container">
         <h1>Mzamomtsha project</h1>
         <div className="description">
-          "Exclusive Car Rental" is a website where the user can rent a luxury
-          car. The user has the option to apply for a rental through an
-          application form. In addition, it is possible to preview available
-          cars with their technical data. The site contains information
-          necessary for car rental, the possibility to subscribe to the
-          newsletter and customer reviews. Website is written for mobile and
-          desktop users.
-          <div className="row">
-          <div className="tech-box">
+        I have developed the official website for Mzamomtsha High School using a combination of HTML, 
+        CSS, and JavaScript. This website serves as an online platform to showcase the schools 
+        information, activities, and resources. By utilizing these technologies, I have been able to create an engaging and visually appealing website that provides visitors with valuable insights into the school's offerings and updates. The integration of HTML for structuring content, CSS for styling and layout, and 
+        JavaScript for interactive elements has resulted in a comprehensive and user-friendly online presence for Mzamomtsha High School.
           
-          <div className="col-lg-8">
+          <div className="tech-box">
+          <div className="row">
             <div
-              className="single-box"
-              id="React"
+              className="single-box"id="React"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={reactIco} className="tech-ico1" alt="html icon" />
-              <span>{react ? "React" : ""}</span>
+              <img src={htmlIco} className="tech-ico1" alt="html icon" />
+              <span>{html ? "HTML" : "HTML"}</span>
             </div>
-            </div>
-            <div className="col-lg-8">
-            <div
-              className="single-box"
-              id="CSS"
+            
+            <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <img src={cssIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "CSS/SCSS" : ""}</span>
+              <span>{css ? "CSS" : "CSS"}</span>
+            </div>
+            <div className="single-box" id="CSS"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={jsIco} className="tech-ico2" alt="html icon" />
+              <span>{css ? "JavaScript" : "JavaScript"}</span>
+            </div>
+            <div className="single-box" id="CSS"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={bootIco} className="tech-ico2" alt="html icon" />
+              <span>{css ? "Bootstrap" : "Bootstrap"}</span>
             </div>
           </div>
           </div>
-          </div>
-          
+        
+  
           <div className="links">
             <a
               href="https://github.com/PPrzebieda/exclusive-car-rental"
@@ -101,8 +111,9 @@ export default function Project1() {
             </a>
           </div>
           </div>
-        </div>
-      </div>
+          </div>
+          </div>
+
    
   );
 }

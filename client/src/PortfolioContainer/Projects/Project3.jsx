@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page3 from "../Projects/public/img/page3.png";
+import page3 from "../Projects/public/img/mzamo.png";
 import htmlIco from "../Projects/public/img/html.png";
 import cssIco from "../Projects/public/img/css.png";
 import jsIco from "../Projects/public/img/js.png";
@@ -51,16 +51,15 @@ export default function Project3() {
         <img src={page3} className="img-project3" />
       </div>
       <div className="right-container">
-        <h1>WSU Online System</h1>
+        <h1>Online Portfolio</h1>
         <div className="description">
-          /*Page is currently under construction. No demo available*/
-          <br />
-          <br />
-          The project involves the creation of an application in which the user,
-          after logging in, can create a resume by filling out a form. In
-          addition, choosing its color scheme and page layout. The project
-          includes previewing the PDF document and downloading it. Projects
-          zakłada
+        I have crafted my online portfolio using the versatile capabilities of React.js for the 
+        frontend and harnessed the power of Node.js for the backend. This dynamic combination 
+        has allowed me to create an engaging and interactive showcase of my work and achievements. 
+        Through React.js, I've been able to design an aesthetically appealing and user-friendly 
+        frontend interface, while Node.js serves as the backend foundation, enabling robust data 
+        management and facilitating seamless interactions between users and the portfolio. 
+        The result is a dynamic and responsive online portfolio that effectively highlights my skills, projects, and accomplishments.
           <div className="tech-box">
             <div
               className="single-box"

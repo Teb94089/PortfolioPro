@@ -59,13 +59,13 @@ export default function Profile() {
                   strings:[
                     "Enthusiastic Dev 😎",
                     
-                    "Full stack Developer 💻",
+                    "Software Developer 💻",
                     
-                    "Quality Assurer💻",
+                    "Fullstack Developer💻",
                     
-                    "Cross Platform Dev 🔴",
+                    "Software Automation Tester🔴",
                     
-                    "React/React Native 🌐",
+                    "Quality Assurer  🌐",
                     
                   ],
                   delay: 150,
