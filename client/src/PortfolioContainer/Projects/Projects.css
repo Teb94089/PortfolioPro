@@ -1,11 +1,14 @@
 .section-projects {
   background-image: url('../../assets//Home/bg.jpg');
-  padding-top: 30px;
+ 
   .projects-container {
     width: 80%;
     margin-left: 10%;
     font-family: "Nunito", sans-serif;
     color: #28363d;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
    
     @media only screen and (max-width: 1300px) {
       width: 94%;

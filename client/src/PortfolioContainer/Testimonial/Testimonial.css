@@ -1,10 +1,11 @@
 .testimonial-section{
-    padding: 80px;
     background-image: url('../../assets//Home/bg.jpg');
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    z-index: -1;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
  }
  .testimonial-section::before{
    content: "";

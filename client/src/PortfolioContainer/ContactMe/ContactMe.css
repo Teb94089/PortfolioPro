@@ -2,7 +2,9 @@
     min-height: 100vh;
     /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
     background-image: url('../../assets//Home/bg.jpg');
-  
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
     margin: 100px 0 -450px 0;
   }
   
