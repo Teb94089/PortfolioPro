@@ -6,12 +6,13 @@
     justify-content: center;
     align-items: center;
     margin: 50px 0 0 0;
-    background-image: url('../../assets//Home/bg.jpg');
-  
+    padding: 15rem 0;
+    
   }
   .about-me-parent {
     max-width: 1000px;
-    width: 100%;
+    width: 80%;
+    height: 60%;
     
   }
   .about-me-card {
@@ -28,11 +29,12 @@
     background-repeat: no-repeat;
     background-position: center;
     justify-content: center;
-    padding-top: 100px;
-    border-radius: 20%;
+    border-radius: 50px 30px 30px 50px; 
     border: #1f2235;
-    background-color:lightblue;
+    background-color: tomato;
     margin: 20px;
+    padding-top: 90px;
+   
 
     
     
@@ -84,7 +86,7 @@
   }
   .highlight-blob {
     position: absolute;
-    left: 730px;
+    left: 700px;
     height: 8px;
     width: 8px;
     margin: 0 10px 0 0;

@@ -9,9 +9,9 @@ import "./Home.css";
 export default function Home(props) {
   return (
     <div className="home-container" id={props.id || ""}>
-      <Nav />
+      <Nav className="nav" />
       <Profile />
-      <Footer />
+      <Footer/>
     </div>
   );
 }

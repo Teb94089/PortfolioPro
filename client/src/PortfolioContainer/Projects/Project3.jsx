@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page3 from "../Projects/public/img/mzamo.png";
+import page3 from "../Projects/public/img/portfolio.mp4";
 import htmlIco from "../Projects/public/img/html.png";
 import cssIco from "../Projects/public/img/css.png";
 import jsIco from "../Projects/public/img/js.png";
@@ -84,11 +84,11 @@ export default function Project3() {
         
   
           <div className="links">
-            <a href="#projects">
+            <a href="https://github.com/Teb94089/portfolio">
               <img src={gitIco} className="liveIco" alt="github icon" />
               <span>GitHub</span>
             </a>
-            <a href="#projects">
+            <a href="https://myportfoliop-88f94b720e4d.herokuapp.com/">
               <img
                 src={liveIco}
                 className="liveIco"

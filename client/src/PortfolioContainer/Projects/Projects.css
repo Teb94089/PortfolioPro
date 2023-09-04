@@ -6,6 +6,7 @@
     margin-left: 10%;
     font-family: "Nunito", sans-serif;
     color: #28363d;
+   
     @media only screen and (max-width: 1300px) {
       width: 94%;
       margin-left: 3%;
@@ -56,10 +57,10 @@
   }
   .project-title {
     padding: 10px 0px 20px 20px;
-    background-color:lightblue;
+    background-color:tomato;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    color: #28363d;
+    color: white;
 
     h2 {
       font-size: 4em;
@@ -94,7 +95,7 @@
     margin-top: 50px;
     height: 500px;
     display: flex;
-    background-color: #dee1dd;
+    background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     color: #28363d;
@@ -294,7 +295,7 @@
   padding: 0px 0px 40px 0px;
 
   display: flex;
-  background-color: #dee1dd;
+  background-color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 20px;
   color: #28363d;

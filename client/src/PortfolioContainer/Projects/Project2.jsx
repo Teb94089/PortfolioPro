@@ -81,13 +81,7 @@ export default function Project2() {
               <img src={jsIco} className="tech-ico2" alt="html icon" />
               <span>{css ? "JavaScript" : "JavaScript"}</span>
             </div>
-            <div className="single-box" id="CSS"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <img src={bootIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "Bootstrap" : "Bootstrap"}</span>
-            </div>
+            
             <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}

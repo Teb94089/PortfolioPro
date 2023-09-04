@@ -1,7 +1,4 @@
 import './Nav.css';
-
-import React from "react"
-
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -28,6 +25,9 @@ export default function Nav() {
           </li>
           <li>
             <a href="#Resume">Resume</a>
+          </li>
+          <li>
+            <a href="#Testimonial">Testimonial</a>
           </li>
           <li>
             <a href="#Projects">Projects</a>

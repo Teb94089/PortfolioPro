@@ -10,12 +10,13 @@
     display: flex;
     justify-content: space-between;
     position: fixed;
+    top: 0;
     align-items: center;
     gap: 16px;
     color: #28363d;
     z-index: 3;
     font-family: "Nunito", sans-serif;
-    font-size:smaller;
+    font-size:x-small;
   }
   .nav-section .nav-container .hamburger-menu {
     height: 20px;
@@ -114,7 +115,7 @@
   justify-content: space-between;
   position: fixed;
   align-items: center;
-  gap: 20px;
+  gap: 14px;
   color: #28363d;
   z-index: 3;
   font-family: "Nunito", sans-serif;
@@ -133,7 +134,7 @@
   width: 600px;
   cursor: pointer;
   margin-left: 20px;
-  font-size: 1.8em;
+  font-size: 1.4em;
   font-weight: bold;
 }
 @media only screen and (max-width: 1300px) {
