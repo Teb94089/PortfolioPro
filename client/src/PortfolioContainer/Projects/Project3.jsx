@@ -5,7 +5,7 @@ import cssIco from "../Projects/public/img/css.png";
 import jsIco from "../Projects/public/img/js.png";
 import bootIco from "../Projects/public/img/bootstrap.png";
 import reactIco from "../Projects/public/img/react.png";
-import threeIco from "../Projects/public/img/three.png";
+import nodeIco from "../Projects/public/img/node.png";
 import gitIco from "../Projects/public/img/githubIco.png";
 import liveIco from "../Projects/public/img/live.png";
 import firebaseIco from "../Projects/public/img/firebase.png";
@@ -56,43 +56,33 @@ export default function Project3() {
         I have crafted my online portfolio using the versatile capabilities of React.js for the 
         frontend and harnessed the power of Node.js for the backend. This dynamic combination 
         has allowed me to create an engaging and interactive showcase of my work and achievements. 
-        Through React.js, I've been able to design an aesthetically appealing and user-friendly 
+        Through React.js, Ive been able to design an aesthetically appealing and user-friendly 
         frontend interface, while Node.js serves as the backend foundation, enabling robust data 
         management and facilitating seamless interactions between users and the portfolio. 
         The result is a dynamic and responsive online portfolio that effectively highlights my skills, projects, and accomplishments.
-          <div className="tech-box">
+        <div className="tech-box">
+          <div className="row">
             <div
-              className="single-box"
-              id="React"
+              className="single-box"id="React"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <img src={reactIco} className="tech-ico1" alt="html icon" />
-              <span>{react ? "React" : ""}</span>
+              <span>{html ? "React" : "React"}</span>
             </div>
-            <div
-              className="single-box"
-              id="CSS"
+            
+            <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={cssIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "CSS/SCSS" : ""}</span>
+              <img src={nodeIco} className="tech-ico2" alt="html icon" />
+              <span>{css ? "CSS" : "Node.js"}</span>
             </div>
-            <div
-              className="single-box"
-              id="Firebase"
-              onMouseEnter={handleMouseEnter}
-              onMouseLeave={handleMouseLeave}
-            >
-              <img
-                src={firebaseIco}
-                className="tech-ico1"
-                alt="firebase icon"
-              />
-              <span>{firebase ? "Firebase" : ""}</span>
-            </div>
+           
           </div>
+          </div>
+        
+  
           <div className="links">
             <a href="#projects">
               <img src={gitIco} className="liveIco" alt="github icon" />

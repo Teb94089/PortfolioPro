@@ -4,7 +4,7 @@ import cssIco from "../Projects/public/img/css.png";
 import reactIco from "../Projects/public/img/react.png";
 import gitIco from "../Projects/public/img/githubIco.png";
 import liveIco from "../Projects/public/img/live.png";
-import firebaseIco from "../Projects/public/img/firebase.png";
+import phpIco from "../Projects/public/img/php.png";
 import htmlIco from "../Projects/public/img/html.png";
 import jsIco from "../Projects/public/img/js.png";
 import bootIco from "../Projects/public/img/bootstrap.png";
@@ -87,6 +87,13 @@ export default function Project2() {
             >
               <img src={bootIco} className="tech-ico2" alt="html icon" />
               <span>{css ? "Bootstrap" : "Bootstrap"}</span>
+            </div>
+            <div className="single-box" id="CSS"
+              onMouseEnter={handleMouseEnter}
+              onMouseLeave={handleMouseLeave}
+            >
+              <img src={phpIco} className="tech-ico2" alt="html icon" />
+              <span>{css ? "PHP" : "PHP"}</span>
             </div>
           </div>
           </div>

@@ -1,9 +1,9 @@
 import React from "react";
-import miniproj1 from "../Projects/public/img/miniproj1.png";
-import miniproj2 from "../Projects/public/img/miniproj2.png";
-import miniproj3 from "../Projects/public/img/miniproj3.png";
-import miniproj4 from "../Projects/public/img/miniproj4.png";
-import miniproj5 from "../Projects/public/img/miniproj5.png";
+import miniproj1 from "../Projects/public/img/financial.png";
+import miniproj2 from "../Projects/public/img/tax.png";
+import miniproj3 from "../Projects/public/img/financial.png";
+import miniproj4 from "../Projects/public/img/tax.png";
+import miniproj5 from "../Projects/public/img/financial.png";
 import gitIco from "../Projects/public/img/githubIco.png";
 import liveIco from "../Projects/public/img/live.png";
 
@@ -36,7 +36,7 @@ export default function MiniProjects() {
         <div className="project-description">
           React application with login, registration and dashboard component.
           <a
-            href="https://github.com/PPrzebieda/react-login-app"
+          href="https://github.com/PPrzebieda/react-login-app"
             target="_blank"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
