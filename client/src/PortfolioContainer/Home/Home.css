@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* min-height: 670px; */
+    
     background-image: url('../../assets//Home/bg.jpg');
     position: relative;
     width: 100%;
     height: auto;
-    min-height: 35rem;
+    min-height: 30rem;
     padding: 10rem 0;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
+    background-attachment:scroll;
+    background-size:cover;
 }

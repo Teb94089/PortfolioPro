@@ -4,24 +4,16 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
-    /* position: absolute;
-    bottom: 0; */
-    margin-top: 100px;
-    height: auto;
-    min-height: 35rem;
-    padding: 15rem 0;
 }
 .footer-parent{
     width: 100%;
     height: 100%;
-    max-width:3000px;
+    max-width: 1920px;
 }
 .footer-parent img{
     max-width: 100%;
-    height: 130px;
-  
-    
-    
+    height: 300px;
+    justify-content: flex-end;
 }
 @media only screen and (max-width: 1110px) {
     .footer-parent{
