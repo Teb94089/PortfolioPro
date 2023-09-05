@@ -28,7 +28,7 @@ export default function Testimonial(props) {
     animateOut: "bounceOutRight",
     dots: true,
     autoplay: true,
-    smartSpeed: 1000,
+    smartSpeed: 300,
     responsive: {
       0: {
         items: 1,
@@ -43,9 +43,8 @@ export default function Testimonial(props) {
   };
 
   return (
-    <div>
-      <ScreenHeading
-        title={"Testimonial"}
+    <div  className="testimonial-container ">
+      <ScreenHeading title={"Testimonial"}
         subHeading={"What My Client Say About Me"}
       />
       <section className="testimonial-section" id={props.id || ""}>
@@ -65,9 +64,7 @@ export default function Testimonial(props) {
                       Nonkululeko as a developer based on their good work during
                       her time at WSU. Her passion for programming, remarkable
                       problem-solving abilities, and dedication to continuous
-                      learning make them a valuable asset in any SD team. I have
-                      no doubt they will continue to thrive in their future
-                      endeavors.
+                      learning make them a valuable asset in any SD team.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -103,9 +100,7 @@ export default function Testimonial(props) {
                       I have full confidence in recommending Nonkululeko based
                       on their exceptional performance in software development
                       during their diploma studies at the Walter Sisulu
-                      University (WSU). They consistently demonstrated a strong
-                      aptitude for programming and showcased a deep
-                      understanding of software development principles.
+                      University (WSU). 
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -142,8 +137,7 @@ export default function Testimonial(props) {
                       performance in software development during their studies
                       at CPUT. They consistently demonstrated a strong aptitude
                       for programming, a deep understanding of software
-                      development principles. Their skills and growth in the
-                      field of software development were impressive.
+                      development principles.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -181,8 +175,7 @@ export default function Testimonial(props) {
                       at Liberty Company. They consistently exhibited
                       exceptional dedication and proficiency in their role,
                       making a notable impact on the quality of our software
-                      products. I'm certain they will continue to thrive in
-                      their future endeavors.
+                      products.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">

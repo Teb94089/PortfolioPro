@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import { toast } from "react-toastify";
+import axios from 'axios'
 
 import imgBack from "../../../src/images/mailz.jpeg";
 import load1 from "../../../src/images/load2.gif";
@@ -80,7 +81,7 @@ export default function Contactme(props) {
             <h2 className='title'> 
             <Typewriter
                   options={{
-                  strings:["Get In Touch"],
+                  strings:["Get In Touch 📧"],
                   
 
                   delay: 150,
