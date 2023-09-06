@@ -9,7 +9,7 @@ import "./Home.css";
 export default function Home(props) {
   return (
     <div className="home-container" id={props.id || ""}>
-      <Nav className="nav" />
+      <Nav/>
       <Profile />
       <Footer/>
     </div>

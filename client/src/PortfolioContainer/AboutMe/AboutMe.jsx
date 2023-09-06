@@ -1,10 +1,10 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ScreenHeading from '../../Utilities/ScreenHeading/ScreenHeading';
 import ScrollService from '../../Utilities/ScrollService'
 import Animations from "../../Utilities/Animations";
+import AboutMeMore from "./AboutMore";
 
 import "./AboutMe.css";
-
 export default function AboutMe(props) {
   
   let fadeInScreenHandler = (screen) => {
@@ -13,7 +13,7 @@ export default function AboutMe(props) {
   };
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
-
+ 
   const SCREEN_CONSTSANTS = {
     description:
       "I am an experienced Software Developer and Quality Assurance professional with a robust background in both fields.  My enthusiasm for embracing new technologies and development methodologies underscores my commitment to staying at the forefront of innovation in both fields. With a balanced skill set, I contribute effectively to software development and testing endeavors, ensuring seamless integration and optimal performance. ",
@@ -63,22 +63,13 @@ export default function AboutMe(props) {
           <span className="about-me-description ">
               {SCREEN_CONSTSANTS.description}
             </span>
+          
         </div>
           <div className="about-me-details ">
-            
-            <div className="about-me-highlights ">
-              <div className="highlight-heading ">
-                <span>{SCREEN_CONSTSANTS.highlights.heading}</span>
-              </div>
-              {renderHighlight()}
-            </div>
+
+         
             <div className="about-me-options ">
-            <button className="btn primary-btn"
-                        onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                    > Let's Discuss! </button>
-              <a href="My_CV_2_0.pdf" download="My Portfolio.pdf">
-                <button className="btn highlighted-btn ">Get Portfolio</button>
-              </a>
+           <AboutMeMore/>
             </div>
           </div>
         </div>

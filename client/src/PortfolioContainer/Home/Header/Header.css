@@ -3,7 +3,7 @@
   justify-content:center;
   height: 149px;
   color: var(--white);
-  position: sticky;
+  position: fixed;
   top: 0;
   background-color:gray; /* Add background color to the sticky header */
   z-index:100; /* Adjust the z-index to layer the header appropriately */
