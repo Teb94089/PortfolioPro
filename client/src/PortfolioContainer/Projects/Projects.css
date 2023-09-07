@@ -182,9 +182,29 @@
       }
       .img-project3 {
         width: 100%;
+       
         overflow-clip-margin: content-box;
         overflow: clip;
         margin-top: 0px;
+        transform: translateY(0%);
+        transition: transform 10s ease-in-out 0s;
+        &:hover,
+        &:focus {
+          transform: translateY(-85.5%);
+          transition: transform 10s ease-in-out 0s;
+          @media only screen and (max-width: 1300px) {
+            transform: translateY(-75.5%);
+          }
+          @media only screen and (max-width: 950px) {
+            transform: translateY(-65.5%);
+          }
+          @media only screen and (max-width: 768px) {
+            transform: translateY(-55.5%);
+          }
+          @media only screen and (max-width: 500px) {
+            transform: translateY(-45.5%);
+          }
+        }
       }
     }
   }

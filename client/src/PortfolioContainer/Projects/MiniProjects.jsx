@@ -16,7 +16,7 @@ export default function MiniProjects() {
           React application with Bootstrap styles and Firebase authentication
           <a
             href="https://github.com/PPrzebieda/firebase-authentication"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
           </a>
@@ -26,7 +26,7 @@ export default function MiniProjects() {
         <img src={miniproj2} className="project-img" alt="project image" />
         <div className="project-description">
           Vanilla JS app that fetches and displays the current time and weather
-          <a href="https://github.com/PPrzebieda/dashboard" target="_blank">
+          <a href="https://github.com/PPrzebieda/dashboard" target="_blank" rel="noreferrer">
             <img src={gitIco} className="liveIco" alt="github icon" />
           </a>
         </div>
@@ -37,7 +37,7 @@ export default function MiniProjects() {
           React application with login, registration and dashboard component.
           <a
           href="https://github.com/PPrzebieda/react-login-app"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
           </a>
@@ -50,7 +50,7 @@ export default function MiniProjects() {
           dropdown menu, tables, forms and other HTML elements.
           <a
             href="https://github.com/PPrzebieda/html-css-online-shop"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
           </a>
@@ -62,7 +62,7 @@ export default function MiniProjects() {
           A simple counter for learning Redux
           <a
             href="https://github.com/PPrzebieda/redux-counter/tree/main/count"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
           </a>

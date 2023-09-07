@@ -34,7 +34,7 @@
     border-radius: 30px 30px 30px 30px; 
     border: #1f2235;
     background-color: tomato;
-    margin: 40px;
+    margin: 50px;
     padding-top: 90px;
 
    
@@ -52,7 +52,8 @@
     margin-left:70px;
     padding-top: 250px;
     .h2{
-      margin-left:70px;
+      margin-left:90px;
+      color: white;
     }
 
 }
@@ -67,6 +68,13 @@
   .about-me-description {
     font-size: 14px;
     width: 50%;
+    color: white;
+    padding-top:90px ;
+    border: #1f2235;
+    border-radius: 90%;
+    
+   
+
   
   
   
@@ -77,9 +85,9 @@
     
    
   }
-  .highlght-heading {
-    font-family: "Montserrat Medium";
-    font-size: 12px;
+  .highlight-heading {
+   
+    font-size: 16px;
     margin: 0 0 5px 0;
   
    

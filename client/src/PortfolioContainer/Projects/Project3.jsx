@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page3 from "../Projects/public/img/portfolio.mp4";
+import page3 from "../Projects/public/img/page3.jpeg";
 import htmlIco from "../Projects/public/img/html.png";
 import cssIco from "../Projects/public/img/css.png";
 import jsIco from "../Projects/public/img/js.png";
@@ -56,10 +56,7 @@ export default function Project3() {
         I have crafted my online portfolio using the versatile capabilities of React.js for the 
         frontend and harnessed the power of Node.js for the backend. This dynamic combination 
         has allowed me to create an engaging and interactive showcase of my work and achievements. 
-        Through React.js, Ive been able to design an aesthetically appealing and user-friendly 
-        frontend interface, while Node.js serves as the backend foundation, enabling robust data 
-        management and facilitating seamless interactions between users and the portfolio. 
-        The result is a dynamic and responsive online portfolio that effectively highlights my skills, projects, and accomplishments.
+        
         <div className="tech-box">
           <div className="row">
             <div

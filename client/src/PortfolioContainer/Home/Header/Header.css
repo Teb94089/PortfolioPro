@@ -1,13 +1,17 @@
 .header-container {
-  display:flex;
-  justify-content:center;
-  height: 149px;
-  color: var(--white);
+  width: 100%;
+  background-color: #dee1dd;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
   position: fixed;
   top: 0;
-  background-color:gray; /* Add background color to the sticky header */
-  z-index:100; /* Adjust the z-index to layer the header appropriately */
-  
+  align-items: center;
+  gap: 16px;
+  color: #28363d;
+  z-index: 3;
+  font-family: "Nunito", sans-serif;
+  font-size:x-small;
 }
 /*contantme nav*/
 .header-parent {
@@ -18,7 +22,8 @@
   width: 70%;
   color:#1f2235;
   padding-top: 10px;
-  position: sticky;
+  position: fixed;
+  z-index: 3;
 
 
 }

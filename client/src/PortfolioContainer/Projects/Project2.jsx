@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page2 from "../Projects/public/img/mzamo.png";
+import page2 from "../Projects/public/img/page2.jpeg";
 import cssIco from "../Projects/public/img/css.png";
 import reactIco from "../Projects/public/img/react.png";
 import gitIco from "../Projects/public/img/githubIco.png";
@@ -51,11 +51,7 @@ export default function Project2() {
         <div className="description">
         I have designed and developed an online system for Walter Sisulu University (WSU) 
         that facilitates a range of functionalities to support student interactions 
-        and administrative processes. This comprehensive platform empowers users to 
-        seamlessly enroll for study programs, apply for transportation and accommodation services,
-         complete registration procedures, and manage debt payments. The system is underpinned by a 
-         robust technology stack, utilizing HTML, CSS, and JavaScript for the frontend interface, 
-        while employing PHP and MySQL as the backend infrastructure for data management.
+        and administrative processes. 
           <div className="tech-box">
           <div className="row">
             <div
@@ -95,14 +91,14 @@ export default function Project2() {
   
           <div className="links">
             <a
-              href="https://github.com/PPrzebieda/exclusive-car-rental"
+              href="https://github.com/Teb94089/WSUProject"
               target="blank"
             >
               <img src={gitIco} className="liveIco" alt="github icon" />
               <span>GitHub</span>
             </a>
             <a
-              href="https://pprzebieda.github.io/exclusive-car-rental/"
+              href="https://github.com/Teb94089/WSUProject"
               target="_blank" rel="noreferrer"
             >
               <img

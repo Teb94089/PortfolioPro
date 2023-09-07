@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page1 from "../Projects/public/img/mzamo.png";
+import page1 from "../Projects/public/img/page1.jpeg";
 import cssIco from "../Projects/public/img/css.png";
 import reactIco from "../Projects/public/img/react.png";
 import gitIco from "../Projects/public/img/githubIco.png";
@@ -50,9 +50,7 @@ export default function Project1() {
         <div className="description">
         I have developed the official website for Mzamomtsha High School using a combination of HTML, 
         CSS, and JavaScript. This website serves as an online platform to showcase the schools 
-        information, activities, and resources. By utilizing these technologies, I have been able to create an engaging and visually appealing website that provides visitors with valuable insights into the school's offerings and updates. The integration of HTML for structuring content, CSS for styling and layout, and 
-        JavaScript for interactive elements has resulted in a comprehensive and user-friendly online presence for Mzamomtsha High School.
-          
+        information, activities, and resources. 
           <div className="tech-box">
           <div className="row">
             <div
@@ -91,14 +89,14 @@ export default function Project1() {
   
           <div className="links">
             <a
-              href="https://github.com/PPrzebieda/exclusive-car-rental"
+              href="https://github.com/Teb94089/MzamomtshaProject"
               target="blank"
             >
               <img src={gitIco} className="liveIco" alt="github icon" />
               <span>GitHub</span>
             </a>
             <a
-              href="https://pprzebieda.github.io/exclusive-car-rental/"
+              href="https://stupendous-faun-5e071b.netlify.app/"
               target="_blank" rel="noreferrer"
             >
               <img
