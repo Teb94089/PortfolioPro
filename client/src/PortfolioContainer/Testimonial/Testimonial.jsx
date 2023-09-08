@@ -5,6 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
+import Footer from "../Home/Footer/Footer";
 import "./Testimonial.css";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 import mphoBg from "../../../src/img/Testimonial/rama.png";
@@ -98,9 +99,10 @@ export default function Testimonial(props) {
                     <p>
                       <i className="fa fa-quote-left" />
                       I have full confidence in recommending Nonkululeko based
-                      on their exceptional performance in software development
-                      during their diploma studies at the Walter Sisulu
-                      University (WSU). 
+                      on their exceptional performance in software Dev
+                      during their studies at (WSU).They consistently demonstrated a strong aptitude
+                      for programming, a deep understanding of software
+                      development principles.
                       <i className="fa fa-quote-right" />
                     </p>
                     <ul className="stars list-unstyled">
@@ -207,6 +209,7 @@ export default function Testimonial(props) {
           </div>
         </div>
       </section>
+      <Footer/>
     </div>
   );
 }

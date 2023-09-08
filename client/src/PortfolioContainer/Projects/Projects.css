@@ -1,13 +1,11 @@
 .main-container{
   background-image: url('../../assets//Home/bg.jpg');
   height: auto;
-    min-height: 35rem;
-    padding: 10rem 0;
+  min-height: 40rem;
+  padding: 12rem 0;
 }
 
 .section-projects {
-  
-  
   .projects-container {
     padding-top:2px;
     width: 80%;
@@ -29,11 +27,35 @@
   }
   .tech-ico1{
     width: 50px;
-    height:50px
+    height:50px;
+
+
+    @media only screen and (max-width: 1110px) {
+      width: 20px;
+      height: 20px;
+      margin-right: 2px;
+      flex-direction: column;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 20px;
+      height: 20px;
+      flex-direction: column;
+    }
   }
   .tech-ico2{
     width: 50px;
     height:50px;
+    @media only screen and (max-width: 1110px) {
+      width: 20px;
+      height: 20px;
+      margin-right: 2px;
+      flex-direction: column;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 20px;
+      height: 20px;
+      flex-direction: column;
+    }
  
   }
   .liveIco{
@@ -42,36 +64,24 @@
     margin-left: 7%;
     padding: 5px;
     
+    @media only screen and (max-width: 1110px) {
+      width: 20px;
+      height: 20px;
+      margin-right: 2px;
+      flex-direction: column;
+    }
+    @media only screen and (max-width: 768px) {
+      width: 20px;
+      height: 20px;
+      flex-direction: column;
+    }
     
   }
   
   .mini {
     margin-top: 50px;
     h3 {
-      font-size: 3em;
-      font-weight: bold;
-      margin: 0px;
-      @media only screen and (max-width: 1300px) {
-        font-size: 2.5em;
-      }
-      @media only screen and (max-width: 768px) {
-        font-size: 2em;
-      }
-      @media only screen and (max-width: 500px) {
-        font-size: 1.7em;
-      }
-    }
-  }
-  .project-title {
-    
-    padding: 5px 0px 10px 10px;
-    background-color:tomato;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    border-radius: 20px;
-    color: white;
-
-    h2 {
-      font-size: 4em;
+      font-size: 1.3em;
       font-weight: bold;
       margin: 0px;
       @media only screen and (max-width: 1300px) {
@@ -85,23 +95,60 @@
       }
     }
     span {
-      font-size: 1.4em;
+      font-size: 1em;
       margin-bottom: 10px;
       text-align: justify;
       @media only screen and (max-width: 1300px) {
-        font-size: 1.2em;
+        font-size: 0.8em;
       }
       @media only screen and (max-width: 768px) {
-        font-size: 1em;
+        font-size: 0.6em;
       }
       @media only screen and (max-width: 500px) {
+        font-size: 0.4em;
+      }
+    }
+  }
+  .project-title {
+    justify-content: center;
+    padding: 2px 0px 5px 5px;
+    background-color:tomato;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    color: white;
+
+    h2 {
+      font-size: 2.5em;
+      font-weight: bold;
+      margin: 0px;
+      @media only screen and (max-width: 1300px) {
+        font-size: 2em;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 1.8em;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 1.7em;
+      }
+    }
+    span {
+      font-size: 1em;
+      margin-bottom: 10px;
+      text-align: justify;
+      @media only screen and (max-width: 1300px) {
         font-size: 0.8em;
+      }
+      @media only screen and (max-width: 768px) {
+        font-size: 0.6em;
+      }
+      @media only screen and (max-width: 500px) {
+        font-size: 0.4em;
       }
     }
   }
   .project-box {
-    margin-top: 50px;
-    height: 500px;
+    margin-top: 40px;
+    height: 300px;
     display: flex;
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -114,7 +161,7 @@
       padding: 15px;
     }
     @media only screen and (max-width: 768px) {
-      fpadding: 10px;
+      padding: 10px;
     }
     @media only screen and (max-width: 500px) {
       padding: 5px;
@@ -211,19 +258,19 @@
   .right-container {
     width: 50%;
     height: 100%;
-    margin-right: 20px;
+    margin-right: 15px;
     display: flex;
     flex-direction: column;
 
     h1 {
       margin: 40px 40px 20px 40px;
       @media only screen and (max-width: 1300px) {
-        font-size: 1.5em;
-        margin: 20px 20px 10px 20px;
+        font-size: 0.4em;
+        margin: 10px 10px 5px 10px;
       }
       @media only screen and (max-width: 768px) {
-        font-size: 1.3em;
-        margin: 0px 10px 0px 10px;
+        font-size: 0.8em;
+        margin: 0px 5px 0px 5px;
       }
     }
     .description {
@@ -231,20 +278,21 @@
       font-size: 1.2em;
       text-align: justify;
       @media only screen and (max-width: 1300px) {
-        font-size: 1.2em;
+        font-size: 0.2em;
         margin: 0px 20px 0px 20px;
       }
       @media only screen and (max-width: 950px) {
-        font-size: 1em;
+        font-size: 0.2em;
       }
       @media only screen and (max-width: 768px) {
-        font-size: 0.8em;
+        font-size: 0.2em;
         margin: 0px 10px 0px 10px;
       }
       @media only screen and (max-width: 500px) {
-        font-size: 0.7em;
-        margin: 0px 10px 0px 10px;
+        font-size: 0.2em;
+        margin: 0px 5px 0px 5px;
       }
+    }
 
       .tech-box {
         display: flex;
@@ -262,19 +310,21 @@
           box-shadow: 0 0 10px rgba(0, 0, 0, 2);
           margin-right: 40px;
           @media only screen and (max-width: 1110px) {
-            width: 40px;
-            height: 40px;
-            margin-right: 20px;
+            width: 5px;
+            height: 5px;
+            margin-right: 2px;
+            flex-direction: column;
           }
           @media only screen and (max-width: 768px) {
-            width: 20px;
-            height: 20px;
+            width: 2px;
+            height: 2px;
+            flex-direction: column;
           }
           cursor: pointer;
         
           span {
-            font-size: 0.8em;
-            margin-left: 5px;
+            font-size: 0.6em;
+            margin-left: 3px;
           }
         }
       }
@@ -314,7 +364,7 @@
           }
         }
       }
-    }
+    
   }
 }
 .mini-projects-box {

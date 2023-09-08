@@ -95,29 +95,21 @@ export default function Contactme(props) {
           </span>
 
 
-          <a href="https://www.facebook.com/mamkhiwa.mbalentle/">
-            <i className="fa fa-facebook"></i>
-          </a>
-          <a href="https://www.instagram.com/ms_landa93/">
-            <i className="fa fa-instagram"></i>
-          </a>
-          <a href="https://twitter.com/rodo_landa">
-            <i className="fa fa-twitter"></i>
-          </a>
+         
           <a href="https://www.linkedin.com/in/nonkululeko-tebeni-938a86190/">
             <i className="fa fa-linkedin"></i>
           </a>
           <a href="https://www.youtube.com/channel/UCBXTZ6zYQ7dQO46poYqnU7w">
-            <i className="fa fa-youtube"></i>
+            <i className="fa fa-github"></i>
           </a>
         </div>
         <div className="back-form">
           <div className="img-back">
-            <h4>
+            <h2>
               Please, Send Your Message Here!
               <p></p>
               <img src={imgBack} alt="image is missing" />
-            </h4>
+            </h2>
           </div>
           <form onSubmit={submitForm}>
             <p>{banner}</p>

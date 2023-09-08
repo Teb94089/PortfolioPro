@@ -93,10 +93,18 @@ const Resume = (props) => {
     ];
 
   const projectsDetails = [
+
+    {
+      title: "My Online Portfolio",
+      duration: { fromDate: "June", toDate: "June" },
+      description:
+        "To create an engaging and interactive showcase of my work and achievements. ",
+      subHeading: "Technologies Use: ReactJs, and NodeJS",
+    },
  
     {
       title: "Mzamomtsha School Website",
-      duration: { fromDate: "2023", toDate: "2023" },
+      duration: { fromDate: "March", toDate: "May" },
       description:
         "Serves as an informational hub and communication platform for students,and the community.",
       subHeading:
@@ -110,23 +118,14 @@ const Resume = (props) => {
         subHeading:
           "Technologies Used: Selenium WebDriver, Excel,and UFT with VBScript,",
       },
-
-      {
-        title: "Mobile Voting System App Project",
-        duration: { fromDate: "2020", toDate: "2020" },
-        description:
-          "The Systems offers a reliable and secure platform for conducting voting processes. ",
-        subHeading: "Technologies Use: Java, and SQL",
-      },
-
-      {
+      /*{
         title: "Walter Sisulu University Website Project",
         duration: { fromDate: "2019", toDate: " 2019" },
         description:
           "The website with student number generation,and online application features.",
         subHeading:
           "Technologies Used: HTML, CSS, JavaScript,PHP, and SQL.",
-        },
+        },*/
       
        
     ];
@@ -179,11 +178,11 @@ const Resume = (props) => {
           <ResumeHeading
           heading={"Yonglings"}
           subHeading={"Full Stack Developer"}
-          fromDate={" July-2023"}
+          fromDate={" July"}
           toDate={"Present"} />
         <div className="experience-description">
           <span className="resume-description-text">
-          -Assist in web development for front-end and back-end components.  Utilize version control systems like Git for code management.</span>
+          -Assist in web development for front-end and back-end components. Utilize version control systems like Git for code management.</span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text"></span>
@@ -192,10 +191,10 @@ const Resume = (props) => {
         </div>
 
         <ResumeHeading
-          heading={"UVU Africa(CapaCiTi Division)"}
+          heading={"UVU Africa(CapaCiTi)"}
           subHeading={"Full Stack Developer"}
-          fromDate={" Feb-2023"}
-          toDate={"July-2023"} />
+          fromDate={" Feb"}
+          toDate={"July"} />
         <div className="experience-description">
           <span className="resume-description-text">
           -Assist in web development for front-end and back-end components. Utilize version control systems like Git for code management.
@@ -212,13 +211,13 @@ const Resume = (props) => {
         </div>
 
         <ResumeHeading
-          heading={"Liberty Limited Group(Health division)"}
+          heading={"Liberty Limited Group"}
           subHeading={"Software Automation Tester"}
           fromDate={"2021"}
           toDate={"2023"} />
         <div className="experience-description">
           <span className="resume-description-text">
-          Designing, developing, and executing automated test scripts to ensure the quality and reliability of software applications.
+          Designing,developing,andexecuting automated test scripts to ensure the quality and reliability of software applications.
           </span>
         </div>
         <div className="experience-description">
@@ -282,6 +281,7 @@ const Resume = (props) => {
   
       /* Interests */
       <div className="resume-screen-container" key="interests">
+        
         <ResumeHeading
           heading="Creative Art"
           description="Like to dance."
@@ -296,6 +296,7 @@ const Resume = (props) => {
           heading="Investment"
           description="Started to invest in Forver Living Product, I am selling Forever Living product all the organic product."
         />
+        
       </div>,
     ];
 

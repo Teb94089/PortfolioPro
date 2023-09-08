@@ -19,21 +19,12 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              <a href="https://www.facebook.com/mamkhiwa.mbalentle/">
-                <i className="fa fa-facebook"></i>
-              </a>
-
-              <a href="https://www.instagram.com/ms_landa93/">
-                <i className="fa fa-instagram"></i>
-              </a>
-              <a href="https://twitter.com/rodo_landa">
-                <i className="fa fa-twitter"></i>
-              </a>
+              
               <a href="https://www.linkedin.com/in/nonkululeko-tebeni-938a86190/">
                 <i className="fa fa-linkedin"></i>
               </a>
               <a href="https://www.youtube.com/channel/UCBXTZ6zYQ7dQO46poYqnU7w">
-                <i className="fa fa-youtube"></i>
+                <i className="fa fa-github"></i>
               </a>
             </div>
           </div>

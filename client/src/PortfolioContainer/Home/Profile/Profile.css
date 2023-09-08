@@ -72,7 +72,7 @@
 }
 .colz .colz-icon i{
     color:rgb(8, 46, 80);
-    padding: 8px;
+    padding: 16px;
     padding-left: 0px;
 }
 .colz .colz-icon i:hover{
@@ -113,7 +113,7 @@
     }
     .profile-options{
         display: flex;
-        justify-content: space-between;
+        justify-content:center;
     }
     .profile-details{
         margin: 25px 0 0;

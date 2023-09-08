@@ -58,8 +58,8 @@
     background-color: tomato;
     height: 40px;
     margin: 15px 0;
-    padding: 0 8px;
-    border-radius: 20px;
+    padding: 0 4px;
+    border-radius: 50px;
     width: 30px;
     transition: width 0.6s ease;
     cursor: pointer;
@@ -91,8 +91,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 375px;
+    height: 370px;
     width: 100%;
+    padding:50px;
 }
 .resume-heading{
     display: flex;
@@ -111,7 +112,7 @@
 /*bullet style*/
 .heading-bullet{
     position: absolute;
-    left: -30px;
+    left: -25px;
     height: 10px;
     width: 10px;
     top: 5px;
@@ -180,6 +181,14 @@
     color: var(--dark-orange);
 }
 
+@media only screen and (max-width: 1368px) {
+    .resume-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    }
+
 /* IPAD PRO RESPONSIVENESS */
 @media only screen and (max-width: 1110px) {
     .resume-card {
@@ -190,6 +199,8 @@
       padding: 0 0 0 70px;
     }
   }
+
+
   
   /* IPAD RESPONSIVENESS */
   @media only screen and (max-width: 1023px) {
@@ -199,6 +210,43 @@
       align-items: center;
     }
   
+   
+    .bullets {
+      width: 90%;
+    }
+  
+    .resume-card {
+      height: fit-content;
+      display: flex;
+      flex-direction: column;
+      margin: 30px 0;
+      align-items: center;
+      width: 90%;
+    }
+  
+    .resume-bullet-details {
+      height: 360px;
+      padding: 0;
+      width: fit-content;
+    }
+  
+    .resume-bullets {
+      margin: 30px 0;
+      width: 100%;
+    }
+  
+    .selected-bullet {
+      width: 100%;
+    }
+  }
+   @media only screen and (max-width: 1023px) {
+    .resume-content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+   
     .bullets {
       width: 90%;
     }
