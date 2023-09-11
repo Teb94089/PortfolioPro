@@ -46,7 +46,7 @@ export default function Project1() {
         <img src={page1} className="img-project1" />
       </div>
       <div className="right-container">
-        <h1>Mzamomtsha project</h1>
+        <h5>Mzamomtsha project</h5>
         <div className="description">
         I have developed the official website for Mzamomtsha High School using a combination of HTML, 
         CSS, and JavaScript. This website serves as an online platform to showcase the schools 

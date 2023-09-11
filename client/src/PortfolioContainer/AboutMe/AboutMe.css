@@ -26,7 +26,7 @@
   }
   .about-me-profile {
     background-color:whitesmoke;
-    width: 50%;
+    width: 55%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -35,50 +35,43 @@
     border: #1f2235;
     background-color: tomato;
     margin: 50px;
-    padding-top: 90px;
-
-   
-
-    
+    padding-top: 90px; 
     
   }
   .profile-pictureA-background{
-    height: 50%;
-    width: 70%;
+    height: 30%;
+    width: 60%;
     background-image: url("../../assets/AboutMe/me.jpg");
     background-size: cover;
     border-radius: 50%;
     background-repeat: no-repeat;
-    margin-left:70px;
+    margin-left:80px;
     padding-top: 250px;
-    .h2{
-      margin-left:90px;
-      color: white;
-    }
+   color: white;
 
 }
+
+.profile-text{
+  color: white;
+  margin-left:80px;
+  font-weight: bold;
+}
   .about-me-details {
-    width: 45%;
+    width:45%;
     text-align:justify;
-    padding: 30px;
+    margin: 2px;
 
     
 
   }
   .about-me-description {
-    font-size: 14px;
+    font-size: 12px;
     width: 50%;
     color: white;
-    padding-top:90px ;
+    padding-top:150px ;
     border: #1f2235;
-    border-radius: 90%;
-    
-   
-
+    padding: 100px;
   
-  
-  
-   
   }
   .about-me-highlights {
     margin: 80px 0;
@@ -117,28 +110,86 @@
     margin: 0 0 0 30px;
     justify-content: center;
   }
+
+/*IPAD PRO RESPONSIVENESS*/
+@media only screen and (max-width: 1180px) {
+  .about-me-container {
+    margin: 50px 0 0 0;
+    height: auto;
+    min-height: 40rem;
+    padding: 12rem 0;
+  }
+
+  .about-me-parent {
+    width: 90%;
+
+  }
+  .about-me-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-me-profile {
+    height: 100%;
+    width: 45%;
+  .profile-pictureA-background{
+      height: 20%;
+      width: 50%;
+      border-radius: 20%;
+      margin-left:30px;
+      
+  }
+}
+}
   
   /*IPAD PRO RESPONSIVENESS*/
-  @media only screen and (max-width: 1110px) {
+ @media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .about-me-container {
+      height: auto;
+      min-height: 20rem;
+      padding: 2rem 0;
+    }
+
     .about-me-parent {
       width: 88%;
+
+    }
+    .about-me-card{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
   }
   @media only screen and (max-width: 898px) {
     .about-me-profile {
-      display: none;
+      height: 50%;
+      width: 88%;
+    .profile-pictureA-background{
+        height: 50%;
+        width: 80%;
+        border-radius: 50%;
+        margin-left:30px;
+        
+    }
     }
     .about-me-details {
-      width: 100%;
+      width: 88%;
+      font-size:2px;
+      padding: 10px;
+
+    }
+    .highlight-blob{
+      left: 40px; 
     }
   }
   @media only screen and (max-width: 466px) {
     .about-me-options {
       display: flex;
       flex-direction: column;
+      font-size:2px;
     }
     .about-me-options .highlighted-btn {
-      margin: 24px 0 0 0 !important;
+      margin: 20px 0 0 0 !important;
     }
     .about-me-options button {
       width: 100%;

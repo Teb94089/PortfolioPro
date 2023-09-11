@@ -47,7 +47,7 @@ export default function Project2() {
   return (
     <div className="project-box">
       <div className="right-container">
-        <h1>WSU Online System Project</h1>
+        <h5>WSU Online System Project</h5>
         <div className="description">
         I have designed and developed an online system for Walter Sisulu University (WSU) 
         that facilitates a range of functionalities to support student interactions 
@@ -98,7 +98,7 @@ export default function Project2() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://github.com/Teb94089/WSUProject"
+              href="https://wsuhtml.000webhostapp.com/index.html"
               target="_blank" rel="noreferrer"
             >
               <img

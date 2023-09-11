@@ -14,15 +14,15 @@ export default function AboutMe(props) {
   const fadeInSubscription =
     ScrollService.currentScreenFadeIn.subscribe(fadeInScreenHandler);
  
-  const SCREEN_CONSTSANTS = {
+  const SCREEN_CONSTANTS = {
     description:
       "I am an experienced Software Developer and Quality Assurance professional with a robust background in both fields.My enthusiasm for embracing new technologies and development methodologies underscores my commitment to staying at the forefront of innovation in both fields.",
       //  "With a balanced skill set, I contribute effectively to software development and testing endeavors, ensuring seamless integration and optimal performance."
-      headingg: "Here are a Few Highlights:",
+      headingg: "What I do:",
   };
   const renderHighlight = () => {
     return( 
-      SCREEN_CONSTSANTS.highlights.bullets.map((value, i) => (
+      SCREEN_CONSTANTS.highlights.bullets.map((value, i) => (
       <div className="highlight " key={i}>
         <div className="highlight-blob "></div>
         <span>{value}</span>
@@ -44,18 +44,22 @@ export default function AboutMe(props) {
         
         <div className="about-me-profile">
           <div className="profile-pictureA-background">
-           {SCREEN_CONSTSANTS.headingg}
+           
           </div>
           <br></br>
+          <div className="profile-text">
+           {SCREEN_CONSTANTS.headingg}
+          </div>
           
+
           <span className="about-me-description ">
-              {SCREEN_CONSTSANTS.description}
+              <p>I am an experienced Software Developer and Quality Assurance professional with a robust background in both fields.My enthusiasm for embracing new technologies and development methodologies underscores my commitment to staying at the forefront of innovation in both fields.",
+                 With a balanced skill set, I contribute effectively to software development and testing endeavors, ensuring seamless integration and optimal performance.
+               </p>
             </span>
           
         </div>
           <div className="about-me-details ">
-
-         
             <div className="about-me-options ">
            <AboutMeMore/>
             </div>

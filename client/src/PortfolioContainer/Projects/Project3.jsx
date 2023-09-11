@@ -51,7 +51,7 @@ export default function Project3() {
         <img src={page3} className="img-project3" />
       </div>
       <div className="right-container">
-        <h1>Online Portfolio</h1>
+        <h5>Online Portfolio</h5>
         <div className="description">
         I have crafted my online portfolio using the versatile capabilities of React.js for the 
         frontend and harnessed the power of Node.js for the backend. This dynamic combination 
