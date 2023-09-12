@@ -5,7 +5,7 @@ import "owl.carousel/dist/assets/owl.theme.default.css";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
-import Footer from "../Home/Footer/Footer";
+
 import "./Testimonial.css";
 import shape from "../../../src/img/Testimonial/shape-bg.png";
 import mphoBg from "../../../src/img/Testimonial/rama.png";
@@ -45,10 +45,11 @@ export default function Testimonial(props) {
 
   return (
     <div  className="testimonial-container ">
+     
+      <section className="testimonial-section" id={props.id || ""}>
       <ScreenHeading title={"Testimonial"}
         subHeading={"What My Client Say About Me"}
       />
-      <section className="testimonial-section" id={props.id || ""}>
         <div className="container">
           <div className="row">
             <OwlCarousel
@@ -208,8 +209,9 @@ export default function Testimonial(props) {
             </OwlCarousel>
           </div>
         </div>
+      
       </section>
-      <Footer/>
+     
     </div>
   );
 }

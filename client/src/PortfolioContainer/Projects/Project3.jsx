@@ -11,39 +11,23 @@ import liveIco from "../Projects/public/img/live.png";
 import firebaseIco from "../Projects/public/img/firebase.png";
 
 export default function Project3() {
-  const [html, setHtml] = useState("");
-  const [css, setCss] = useState("");
-  const [js, setJs] = useState("");
-  const [boot, setBoot] = useState("");
+ 
   const [react, setReact] = useState("");
-  const [three, setThree] = useState("");
-  const [firebase, setFirebase] = useState("");
+  const [node,setNode] = useState("");
+ 
 
   const handleMouseEnter = (e) => {
-    if (e.target.id == "HTML") {
-      setHtml(true);
-    } else if (e.target.id == "CSS") {
-      setCss(true);
-    } else if (e.target.id == "JavaScript") {
-      setJs(true);
-    } else if (e.target.id == "Bootstrap") {
-      setBoot(true);
-    } else if (e.target.id == "React") {
+    if (e.target.id == "React") {
       setReact(true);
-    } else if (e.target.id == "Three.js") {
-      setThree(true);
-    } else if (e.target.id == "Firebase") {
-      setFirebase(true);
+    } else if (e.target.id == "Node.js") {
+      setNode(true);
+    
     }
   };
   const handleMouseLeave = () => {
-    setHtml();
-    setCss();
-    setJs();
-    setBoot();
     setReact();
-    setThree();
-    setFirebase();
+    setNode();
+    
   };
   return (
     <div className="project-box">
@@ -65,15 +49,15 @@ export default function Project3() {
               onMouseLeave={handleMouseLeave}
             >
               <img src={reactIco} className="tech-ico1" alt="html icon" />
-              <span>{html ? "React" : "React"}</span>
+              <span>{react ? "React" : ""}</span>
             </div>
             
-            <div className="single-box" id="CSS"
+            <div className="single-box" id="Node.js"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={nodeIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "CSS" : "Node.js"}</span>
+              <img src={nodeIco} className="tech-ico1" alt="html icon" />
+              <span>{node ? "Node.Js" : ""}</span>
             </div>
            
           </div>

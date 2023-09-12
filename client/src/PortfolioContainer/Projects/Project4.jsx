@@ -60,30 +60,30 @@ export default function Project4() {
               onMouseLeave={handleMouseLeave}
             >
               <img src={htmlIco} className="tech-ico1" alt="html icon" />
-              <span>{html ? "HTML" : "HTML"}</span>
+              <span>{html ? "HTML" : ""}</span>
             </div>
             
             <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={cssIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "CSS" : "CSS"}</span>
+              <img src={cssIco} className="tech-ico1" alt="html icon" />
+              <span>{css ? "CSS" : ""}</span>
             </div>
             <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={jsIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "JavaScript" : "JavaScript"}</span>
+              <img src={jsIco} className="tech-ico1" alt="html icon" />
+              <span>{css ? "JavaS" : ""}</span>
             </div>
             
             <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={phpIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "PHP" : "PHP"}</span>
+              <img src={phpIco} className="tech-ico1" alt="html icon" />
+              <span>{css ? "PHP" : ""}</span>
             </div>
           </div>
           </div>

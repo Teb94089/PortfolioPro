@@ -14,8 +14,8 @@ export default function Project1() {
   const [css, setCss] = useState("");
   const [js, setJs] = useState("");
   const [boot, setBoot] = useState("");
-  const [react, setReact] = useState("");
-  const [three, setThree] = useState("");
+ 
+
 
   const handleMouseEnter = (e) => {
     if (e.target.id == "HTML") {
@@ -26,10 +26,7 @@ export default function Project1() {
       setJs(true);
     } else if (e.target.id == "Bootstrap") {
       setBoot(true);
-    } else if (e.target.id == "React") {
-      setReact(true);
-    } else if (e.target.id == "Three.js") {
-      setThree(true);
+
     }
   };
   const handleMouseLeave = () => {
@@ -37,9 +34,9 @@ export default function Project1() {
     setCss();
     setJs();
     setBoot();
-    setReact();
-    setThree();
-  };
+  
+  }
+    
   return (
     <div className="project-box">
       <div className="left-container">
@@ -54,34 +51,34 @@ export default function Project1() {
           <div className="tech-box">
           <div className="row">
             <div
-              className="single-box"id="React"
+              className="single-box"id="HTML"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <img src={htmlIco} className="tech-ico1" alt="html icon" />
-              <span>{html ? "HTML" : "HTML"}</span>
+              <span>{html ? "HTML" : ""}</span>
             </div>
             
             <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={cssIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "CSS" : "CSS"}</span>
+              <img src={cssIco} className="tech-ico1" alt="html icon" />
+              <span>{css ? "CSS" : ""}</span>
             </div>
-            <div className="single-box" id="CSS"
+            <div className="single-box" id="JavaScript"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={jsIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "JavaScript" : "JavaScript"}</span>
+              <img src={jsIco} className="tech-ico1" alt="html icon" />
+              <span>{js ? "JavaS.." : ""}</span>
             </div>
-            <div className="single-box" id="CSS"
+            <div className="single-box" id="Bootstrap"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <img src={bootIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "Bootstrap" : "Bootstrap"}</span>
+              <span>{boot ? "Bootstrap" : ""}</span>
             </div>
           </div>
           </div>

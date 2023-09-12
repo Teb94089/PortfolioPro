@@ -1,48 +1,40 @@
 import React, { useState } from "react";
 import page2 from "../Projects/public/img/page2.jpeg";
 import cssIco from "../Projects/public/img/css.png";
-import reactIco from "../Projects/public/img/react.png";
+
 import gitIco from "../Projects/public/img/githubIco.png";
 import liveIco from "../Projects/public/img/live.png";
 import phpIco from "../Projects/public/img/php.png";
 import htmlIco from "../Projects/public/img/html.png";
 import jsIco from "../Projects/public/img/js.png";
-import bootIco from "../Projects/public/img/bootstrap.png";
+
 
 export default function Project2() {
   const [html, setHtml] = useState("");
   const [css, setCss] = useState("");
   const [js, setJs] = useState("");
-  const [boot, setBoot] = useState("");
-  const [react, setReact] = useState("");
-  const [three, setThree] = useState("");
-  const [firebase, setFirebase] = useState("");
+  const [php, setPhp] = useState("");
+
 
   const handleMouseEnter = (e) => {
     if (e.target.id == "HTML") {
       setHtml(true);
     } else if (e.target.id == "CSS") {
       setCss(true);
-    } else if (e.target.id == "JavaScript") {
+    } else if (e.target.id == "JavaS...") {
       setJs(true);
-    } else if (e.target.id == "Bootstrap") {
-      setBoot(true);
-    } else if (e.target.id == "React") {
-      setReact(true);
-    } else if (e.target.id == "Three.js") {
-      setThree(true);
-    } else if (e.target.id == "Firebase") {
-      setFirebase(true);
+    } else if (e.target.id =="PHP") {
+      setPhp(true);
+   
     }
   };
   const handleMouseLeave = () => {
     setHtml();
     setCss();
     setJs();
-    setBoot();
-    setReact();
-    setThree();
-    setFirebase();
+    setPhp();
+   
+    
   };
   return (
     <div className="project-box">
@@ -55,35 +47,35 @@ export default function Project2() {
           <div className="tech-box">
           <div className="row">
             <div
-              className="single-box"id="React"
+              className="single-box"id="HTML"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <img src={htmlIco} className="tech-ico1" alt="html icon" />
-              <span>{html ? "HTML" : "HTML"}</span>
+              <span>{html ? "HTML" : ""}</span>
             </div>
             
             <div className="single-box" id="CSS"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={cssIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "CSS" : "CSS"}</span>
+              <img src={cssIco} className="tech-ico1" alt="html icon" />
+              <span>{css ? "CSS" : ""}</span>
             </div>
-            <div className="single-box" id="CSS"
+            <div className="single-box" id="JavaS..."
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={jsIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "JavaScript" : "JavaScript"}</span>
+              <img src={jsIco} className="tech-ico1" alt="html icon" />
+              <span>{js ? "JavaS..." : ""}</span>
             </div>
             
-            <div className="single-box" id="CSS"
+            <div className="single-box" id="PHP"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={phpIco} className="tech-ico2" alt="html icon" />
-              <span>{css ? "PHP" : "PHP"}</span>
+              <img src={phpIco} className="tech-ico1" alt="html icon" />
+              <span>{php ? "PHP" : ""}</span>
             </div>
           </div>
           </div>

@@ -95,28 +95,28 @@ const Resume = (props) => {
   const projectsDetails = [
 
     {
-      title: "My Online Portfolio",
-      duration: { fromDate: "June", toDate: "June" },
+      title: "Online Portfolio",
+      duration: { fromDate: "May", toDate: "June" },
       description:
-        "To create an engaging and interactive showcase of my work and achievements. ",
-      subHeading: "Technologies Use: ReactJs, and NodeJS",
+        "To create an engaging and interactive showcase of my work. ",
+      subHeading: "Technologies Use: React, and NodeJS",
     },
  
     {
-      title: "Mzamomtsha School Website",
-      duration: { fromDate: "March", toDate: "May" },
+      title: "Mzamomtsha School Project",
+      duration: { fromDate: "Feb", toDate: "May" },
       description:
-        "Serves as an informational hub and communication platform for students,and the community.",
+        "Serves as an informational hub and communication platform for school.",
       subHeading:
-        "Technologies Used:HTML, CSS, JavaScript and BootStrap5.",
+        "Technologies Used:HTML,CSS & JavaScript.",
       },
       {
-        title: "Librty Health Orbit System  Project",
+        title: "Librty Health Orbit System Project",
         duration: { fromDate: "2021", toDate: "2023" },
         description:
-          "Automating the system,ensuring efficient and high-quality results.",
+          "Automating the system,ensuring high-quality.",
         subHeading:
-          "Technologies Used: Selenium WebDriver, Excel,and UFT with VBScript,",
+          "Technologies Used: Selenium,and UFT",
       },
       /*{
         title: "Walter Sisulu University Website Project",
@@ -182,7 +182,7 @@ const Resume = (props) => {
           toDate={"Present"} />
         <div className="experience-description">
           <span className="resume-description-text">
-          -Assist in web development for front-end and back-end components. Utilize version control systems like Git for code management.</span>
+          -Assist in web development for front-end and back-end components. </span>
         </div>
         <div className="experience-description">
           <span className="resume-description-text"></span>
@@ -197,7 +197,7 @@ const Resume = (props) => {
           toDate={"July"} />
         <div className="experience-description">
           <span className="resume-description-text">
-          -Assist in web development for front-end and back-end components. Utilize version control systems like Git for code management.
+          -Assist in web development for front-end and back-end components. 
            
           </span>
         </div>
@@ -217,7 +217,7 @@ const Resume = (props) => {
           toDate={"2023"} />
         <div className="experience-description">
           <span className="resume-description-text">
-          Designing,developing,andexecuting automated test scripts to ensure the quality and reliability of software applications.
+          Automating the system,ensuring efficient and high-quality.
           </span>
         </div>
         <div className="experience-description">
@@ -320,11 +320,11 @@ const Resume = (props) => {
           }
           key={index}
         >
-             {/*Use corresponding SVG component based on the bullet*/ }
+            
 
              <img src={bullet.logoSrc} alt={`${bullet.label} icon`} className="bullet-logo" />
         
-        {/* Use other SVG components similarly */}
+      
         
           
           <span className="bullet-label">{bullet.label}</span>

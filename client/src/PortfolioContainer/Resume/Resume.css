@@ -5,8 +5,8 @@
     justify-content: center;
     margin: 50px 0 0 0;
     height: auto;
-    min-height: 40rem;
-    padding: 12rem 0;
+    min-height: 35rem;
+    padding: 10rem 0;
  
     
 }
@@ -219,59 +219,58 @@
       height: fit-content;
       display: flex;
       flex-direction: column;
-      margin: 30px 0;
+      margin: 50px 0;
       align-items: center;
       width: 90%;
     }
   
     .resume-bullet-details {
-      height: 360px;
+      height: 380px;
       padding: 0;
       width: fit-content;
     }
   
     .resume-bullets {
-      margin: 30px 0;
+      margin: 20px 0;
       width: 100%;
     }
   
     .selected-bullet {
       width: 100%;
     }
+
+    .heading-date{
+      background-color:var(--dark-orange);
+      padding: 4px 8px;
+      font-size: 10px;
+      border-radius: 50px; 
+      color:whitesmoke;
+      width:70px;
   }
-   @media only screen and (max-width: 1023px) {
-    .resume-content {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+
+  .resume-main-heading{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    font-size: 12px;
+    font-weight: bolder;
+    
+}
+
+/*bullet style*/
+.heading-bullet{
+  position: absolute;
+  left: -25px;
+  height: 8px;
+  width: 8px;
+  top: 5px;
+  background-color: var(--dark-orange);
+  border-radius: 50%;
   
-   
-    .bullets {
-      width: 90%;
-    }
   
-    .resume-card {
-      height: fit-content;
-      display: flex;
-      flex-direction: column;
-      margin: 30px 0;
-      align-items: center;
-      width: 90%;
-    }
   
-    .resume-bullet-details {
-      height: 360px;
-      padding: 0;
-      width: fit-content;
-    }
-  
-    .resume-bullets {
-      margin: 30px 0;
-      width: 100%;
-    }
-  
-    .selected-bullet {
-      width: 100%;
-    }
+}
+
   }
+ 
