@@ -22,65 +22,7 @@
     }
   }
   
-  .single-box{
-  font-size: smaller;
-  margin-left: 50px;
-  padding-top: 40px;
  
-  }
-  .tech-ico1{
-    width: 50px;
-    height:50px;
-
-
-    @media only screen and (max-width: 1110px) {
-      width: 10px;
-      height: 10px;
-      margin-right: 2px;
-      flex-direction: column;
-    }
-    @media only screen and (max-width: 768px) {
-      width: 20px;
-      height: 20px;
-      flex-direction: column;
-    }
-  }
-  .tech-ico2{
-    width: 50px;
-    height:50px;
-    @media only screen and (max-width: 1110px) {
-      width: 20px;
-      height: 20px;
-      margin-right: 2px;
-      flex-direction: column;
-    }
-    @media only screen and (max-width: 768px) {
-      width: 20px;
-      height: 20px;
-      flex-direction: column;
-    }
- 
-  }
-  .liveIco{
-    width: 30px;
-    height:30px;
-    margin-left: 7%;
-    padding: 5px;
-    
-    @media only screen and (max-width: 1110px) {
-      width: 20px;
-      height: 20px;
-      margin-right: 2px;
-      flex-direction: column;
-    }
-    @media only screen and (max-width: 768px) {
-      width: 20px;
-      height: 20px;
-      flex-direction: column;
-    }
-    
-  }
-  
   .mini {
     margin-top: 50px;
     h3 {
@@ -135,7 +77,7 @@
       }
     }
     span {
-      font-size: 1em;
+      font-size: 2.5em;
       margin-bottom: 10px;
       text-align: justify;
       @media only screen and (max-width: 1300px) {
@@ -156,7 +98,7 @@
     background-color: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
-    color: #28363d;
+    color:#1f2235;
     padding: 20px;
     @media only screen and (max-width: 1700px) {
       
@@ -195,15 +137,19 @@
           transition: transform 10s ease-in-out 0s;
           @media only screen and (max-width: 1300px) {
             transform: translateY(-70.5%);
+            
           }
           @media only screen and (max-width: 950px) {
             transform: translateY(-60.5%);
+          
           }
           @media only screen and (max-width: 768px) {
             transform: translateY(-50.5%);
+           
           }
           @media only screen and (max-width: 500px) {
             transform: translateY(-40.5%);
+           
           }
         }
       }
@@ -259,42 +205,34 @@
         }
       }
     }
-  }
+ 
   .right-container {
     width: 50%;
     height: 100%;
-    margin-right: 15px;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
 
-    h1 {
-      margin: 40px 40px 20px 40px;
-      @media only screen and (max-width: 1300px) {
-        font-size: 4px;
-        margin: 10px 10px 5px 10px;
-      }
-      @media only screen and (max-width: 768px) {
-        font-size: 0.8em;
-        margin: 0px 5px 0px 5px;
-      }
-    }
+   
+  }
     .description {
       margin: 0px 40px 0px 40px;
-      font-size: 1.2em;
+      font-size: 1em;
       text-align: justify;
+      color: tomato;
       @media only screen and (max-width: 1300px) {
-        font-size: 0.2em;
+        font-size: 1em;
         margin: 0px 20px 0px 20px;
       }
       @media only screen and (max-width: 950px) {
-        font-size: 0.2em;
+        font-size: 0.8em;
       }
       @media only screen and (max-width: 768px) {
-        font-size: 0.2em;
+        font-size: 0.6em;
         margin: 0px 10px 0px 10px;
       }
       @media only screen and (max-width: 500px) {
-        font-size: 0.2em;
+        font-size: 0.4em;
         margin: 0px 5px 0px 5px;
       }
     }
@@ -303,38 +241,78 @@
         display: flex;
         width: 100%;
         justify-content: center;
+        .tech-ico1{
+          width: 50px;
+          height:50px;
+          margin-right: 10px;
+          @media only screen and (max-width: 1110px) {
+            width: 40px;
+            height: 40px;
+            
+            
+          }
+          @media only screen and (max-width: 768px) {
+            width: 20px;
+            height: 20px;
+          
+          }
+        }
+        .tech-ico2{
+          width: 50px;
+          height:50px;
+          margin-left: 10px;
+          @media only screen and (max-width: 1110px) {
+            width: 40px;
+            height: 40px;
+           
+            
+          }
+          @media only screen and (max-width: 768px) {
+            width: 20px;
+            height: 20px;
+          
+            flex-direction: column;
+          }
+        }
         .single-box {
           margin-top: 30px;
           width: 60px;
           height: 60px;
-          background-color: #658b6f;
           display: flex;
           justify-content: center;
           align-items: center;
-          border-radius: 50%;
-          box-shadow: 0 0 10px rgba(0, 0, 0, 2);
           margin-right: 40px;
           @media only screen and (max-width: 1110px) {
-            width: 5px;
-            height: 5px;
-            margin-right: 2px;
-            flex-direction: column;
+            width: 20px;
+            height: 20px;
+            margin-right: 20px;
+           
           }
           @media only screen and (max-width: 768px) {
-            width: 2px;
-            height: 2px;
-            flex-direction: column;
+            width: 20px;
+            height: 20px;
+          
+            
           }
           cursor: pointer;
         
           span {
-            font-size: 0.6em;
+            font-size: 2.5em;
             margin-left: 3px;
           }
         }
       }
+      
+        
+        .liveIco{
+          width: 30px;
+          height:30px;
+         margin-right: 50%;
+          
+        }
+        
       .links {
-        margin-top: 40px;
+        margin-top: 10px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
@@ -372,6 +350,7 @@
     
   }
 }
+
 .mini-projects-box {
   width: 100%;
   margin-top: 50px;
@@ -395,7 +374,8 @@
     margin-top: 40px;
 
     .project-img {
-      width: 200px;
+      width: 90px;
+      height: 90px;
       border-radius: 20px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
       cursor: pointer;
@@ -412,7 +392,6 @@
     .project-description {
       width: 140px;
       text-align: center;
-
       display: flex;
       justify-content: center;
       align-items: center;
@@ -436,5 +415,48 @@
         width: 5px;
       }
     }
+    .liveIco{
+      width: 30px;
+      height:30px;
+      margin-left: 7%;
+      
+    }
+    
+  .links {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    @media only screen and (max-width: 1600px) {
+      flex-direction: row;
+    }
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      color: #28363d;
+      margin-bottom: 15px;
+      &:hover,
+      &:focus {
+        color: #2f575d;
+        text-decoration: underline;
+      }
+      @media only screen and (max-width: 1600px) {
+        margin-right: 10px;
+      }
+    }
+    img {
+      width: 40px;
+      margin-right: 10px;
+      @media only screen and (max-width: 1600px) {
+        margin-right: 10px;
+      }
+      @media only screen and (max-width: 1110px) {
+        width: 20px;
+      }
+    }
   }
+}
 }

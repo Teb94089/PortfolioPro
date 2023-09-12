@@ -2,6 +2,7 @@ import React from "react";
 import Project1 from "./Project1";
 import Project2 from "./Project2";
 import Project3 from "./Project3";
+import Project4 from "./Project4";
 import MiniProjects from "./MiniProjects";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
@@ -26,7 +27,7 @@ export default function Projects(props) {
     <div className="section-projects" id="projects">
       <div className="projects-container">
         <div className="project-title">
-          <h2>Projects</h2>
+          <h3>Projects</h3>
           <span>
             Below you can see my projects, check out the live demos and code on
             GitHub
@@ -35,6 +36,7 @@ export default function Projects(props) {
         <Project1 />
         <Project2 />
         <Project3 />
+        <Project4 />
         <div className="project-title mini">
           <h3>Mini projects</h3>
           <span>
