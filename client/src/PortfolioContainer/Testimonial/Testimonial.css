@@ -2,8 +2,8 @@
 .testimonial-section{
     background-image: url('../../assets//Home/bg.jpg');
     height: auto;
-    min-height: 40rem;
-    padding: 12rem 0;
+    min-height: 35rem;
+    padding: 10rem 0;
    
  }
  .testimonial-section::before{
@@ -95,9 +95,102 @@
      font-weight: 400;
      margin: 0;
  }
+
+
  
- 
- 
+/* IPAD PRO RESPONSIVENESS */
+@media only screen and (max-width: 1110px) {
+    .container {
+      width: 880px;
+    }
+  
+    .testimonial-section .testi-item p{
+        font-size: 10px;
+        line-height: 22px;
+        font-weight: 200;
+        margin: 0 0 8px;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 2px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 2px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 20px;
+    }
+
+
+} 
+  /* IPAD RESPONSIVENESS */
+  @media only screen and (max-width: 1023px) {
+   
+    
+   
+    .testimonial-section .testi-item p{
+        font-size: 10px;
+        line-height: 22px;
+        font-weight: 200;
+        margin: 0 0 8px;
+        padding-top: 5%;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 10px;
+    }
+      .testimonial-section .testi-comment .stars li {
+          display: inline-block;
+          margin: 0 1px;
+      }
+      .testimonial-section .testi-comment .stars li i {
+          font-size: 10px;
+          color: tomato;
+      }
+      .testimonial-section .client-info{
+          position: relative;
+          padding-left: 50px;
+          padding-top: 2px;
+          min-height: 60px;
+      }
+      .testimonial-section .client-info img{
+          height: 40px;
+          width: 40px;
+          border: 2px solid transparent;
+          border-color: black;
+          left: 0;
+          top: 0;
+          border-radius: 50%;
+          position: absolute;
+      }
+      .testimonial-section .client-info h5{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+          margin: 0 0 1px;
+      }
+      .testimonial-section .client-info p{
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 200;
+          margin: 0;
+          
+      }
+}
  
  
  

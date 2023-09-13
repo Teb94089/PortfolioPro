@@ -83,7 +83,7 @@
 
       width: 100%;
       padding: 0 40px;
-      position: relative;
+      position:absolute;
     }
     .header-options {
       display: flex;
@@ -92,9 +92,9 @@
       left: -100%;
       transition: all 0.8s ease-out;
       top: 0px;
-      height: 100vh;
+      height: 60vh;
       width: 100%;
-      justify-content:space-evenly;
+      justify-content:space-between;
       background-color: #1f2235;
       z-index: 1000;
       opacity: 0.5;
