@@ -9,6 +9,7 @@ import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
 
 import './projects.css'
+
 export default function Projects(props) {
 
   let fadeInScreenHandler = (screen) => {
@@ -26,26 +27,19 @@ export default function Projects(props) {
         />
     <div className="section-projects" id="projects">
       <div className="projects-container">
-        <div className="project-title">
-          <h3>Projects</h3>
-          <span>
-            Below you can see my projects, check out the live demos and code on
-            GitHub
-          </span>
-        </div>
         <Project1 />
         <Project2 />
         <Project3 />
         <Project4 />
-        <div className="project-title mini">
-          <h3>Mini projects</h3>
-          <span>
-            This section includes projects from the beginning of my programming
-            education and technologies in which I am just beginning to learn
-          </span>
-        </div>
+       
+        <div className="about-me-options ">
+            
 
-        <MiniProjects />
+            {/* <NoBack   btnLink='/#project' btnText="Works"/> */}
+              <MiniProjects btnLink="/about" btnText="Read More"/>
+
+            </div>
+            
       </div>
     </div>
     </div>

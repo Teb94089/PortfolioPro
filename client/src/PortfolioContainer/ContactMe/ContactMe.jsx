@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Typewriter from "typewriter-effect";
 import GraphemeSplitter from "grapheme-splitter";
 import { toast } from "react-toastify";
@@ -10,6 +10,7 @@ import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
 import "./ContactMe.css";
+
 
 export default function Contactme(props) {
   const stringSplitter = (string)=>{
@@ -53,7 +54,8 @@ export default function Contactme(props) {
         message,
       };
       setBool(true);
-      const res = await axios.post("/contact", data);
+      const res = await axios.post("http://localhost:5000/ContactMe", data);
+      console.log('Received a contact request');
       if (name.length === 0 || email.length === 0 || message.length === 0) {
         setBanner(res.data.msg);
         toast.error(res.data.msg);
@@ -68,7 +70,7 @@ export default function Contactme(props) {
         setMessage("");
       }
     } catch (error) {
-      console.log(error);
+      alert('something went wrong' ,error)
     }
   };
 
@@ -99,7 +101,7 @@ export default function Contactme(props) {
           <a href="https://www.linkedin.com/in/nonkululeko-tebeni-938a86190/">
             <i className="fa fa-linkedin"></i>
           </a>
-          <a href="https://www.youtube.com/channel/UCBXTZ6zYQ7dQO46poYqnU7w">
+          <a href="https://github.com/Teb94089">
             <i className="fa fa-github"></i>
           </a>
         </div>
@@ -123,7 +125,7 @@ export default function Contactme(props) {
             <textarea type="text" onChange={handleMessage} value={message} />
 
             <div className="send-btn">
-              <button type="submit">
+              <button type="submit" >
                 send
                 <i className="fa fa-paper-plane" />
                 {bool ? (

@@ -1,8 +1,10 @@
- const router = require('express').Router();
+const router = require('express');
 const nodemailer = require('nodemailer');
 
 
-router.post('/contact', (req,res) =>{
+
+
+router.post('http://localhost:5000/ContactMe', (req, res) => {
     let data = req.body;
     if (data.name.length === 0 || data.email.length === 0 || data.message.length === 0) {
         return res.json({msg: "please fill all the fields.."})
@@ -14,7 +16,7 @@ router.post('/contact', (req,res) =>{
             
             auth:{
                 user: 'nkulie12345@gmail.com',
-                pass: 'fgtsljqrichgslvb'
+                pass: 'vvnxcpsizztcvifp'
             }
         })
         let mailOptions = {

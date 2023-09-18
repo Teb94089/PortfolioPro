@@ -1,11 +1,11 @@
-import React from "react";
+import {} from 'react'
 import miniproj1 from "../Projects/public/img/financial.png";
 import miniproj2 from "../Projects/public/img/tax.png";
 import miniproj3 from "../Projects/public/img/financial.png";
 import miniproj4 from "../Projects/public/img/tax.png";
 import miniproj5 from "../Projects/public/img/financial.png";
 import gitIco from "../Projects/public/img/githubIco.png";
-import liveIco from "../Projects/public/img/live.png";
+
 
 export default function MiniProjects() {
   return (
@@ -15,7 +15,7 @@ export default function MiniProjects() {
         <div className="project-description">
           React application with Bootstrap styles and Firebase authentication
           <a
-            href="https://github.com/PPrzebieda/firebase-authentication"
+            href="https://github.com/Teb94089/MzamomtshaProject"
             target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
@@ -26,7 +26,7 @@ export default function MiniProjects() {
         <img src={miniproj2} className="project-img" alt="project image" />
         <div className="project-description">
           Vanilla JS app that fetches and displays the current time and weather
-          <a href="https://github.com/PPrzebieda/dashboard" target="_blank" rel="noreferrer">
+          <a href="https://github.com/Teb94089/MzamomtshaProject" target="_blank" rel="noreferrer">
             <img src={gitIco} className="liveIco" alt="github icon" />
           </a>
         </div>
@@ -36,7 +36,7 @@ export default function MiniProjects() {
         <div className="project-description">
           React application with login, registration and dashboard component.
           <a
-          href="https://github.com/PPrzebieda/react-login-app"
+          href="https://github.com/Teb94089/MzamomtshaProject"
             target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
@@ -49,7 +49,7 @@ export default function MiniProjects() {
           Online store outline using HTML and CSS with no JavaScript. Contain
           dropdown menu, tables, forms and other HTML elements.
           <a
-            href="https://github.com/PPrzebieda/html-css-online-shop"
+            href="https://github.com/Teb94089/MzamomtshaProject"
             target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
@@ -61,7 +61,7 @@ export default function MiniProjects() {
         <div className="project-description">
           A simple counter for learning Redux
           <a
-            href="https://github.com/PPrzebieda/redux-counter/tree/main/count"
+            href="https://github.com/Teb94089/MzamomtshaProject"
             target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />

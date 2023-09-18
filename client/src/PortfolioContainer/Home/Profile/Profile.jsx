@@ -23,7 +23,7 @@ export default function Profile() {
               <a href="https://www.linkedin.com/in/nonkululeko-tebeni-938a86190/">
                 <i className="fa fa-linkedin"></i>
               </a>
-              <a href="https://www.youtube.com/channel/UCBXTZ6zYQ7dQO46poYqnU7w">
+          <a href="https://github.com/Teb94089"> 
                 <i className="fa fa-github"></i>
               </a>
             </div>
@@ -79,7 +79,7 @@ export default function Profile() {
                         
                         >{" "}Hire Me{""}
                     </button>
-            <a href="YolandaCV.pdf" download="YolandaCV.pdf">
+            <a href="Yolanda TebeniCV.pdf" download="Yolanda TebeniCV.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>
           </div>

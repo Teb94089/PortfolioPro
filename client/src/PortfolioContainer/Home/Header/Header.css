@@ -8,7 +8,6 @@
 .header-parent {
   width: 100%;
   background-color: #dee1dd;
-  
   display: flex;
   justify-content: space-around;
   position: fixed;
@@ -74,13 +73,17 @@
       width: 80%;
      
     }
+    .header-hamburger {
+      display:block;
+      
+    }
   }
   @media only screen and (max-width: 970px) {
     .header-hamburger {
       display:block;
+      
     }
-    .header-parent {
-
+    .header-parent {  
       width: 100%;
       padding: 0 40px;
       position:absolute;
