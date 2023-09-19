@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import page2 from "../Projects/public/img/page2.jpeg";
+import page4 from "../Projects/public/img/page4.jpeg";
 import cssIco from "../Projects/public/img/css.png";
 import reactIco from "../Projects/public/img/react.png";
 import gitIco from "../Projects/public/img/githubIco.png";
@@ -16,7 +16,7 @@ export default function Project4() {
   const [boot, setBoot] = useState("");
   const [react, setReact] = useState("");
   const [three, setThree] = useState("");
-  const [firebase, setFirebase] = useState("");
+  const [php, setPhp] = useState("");
 
   const handleMouseEnter = (e) => {
     if (e.target.id == "HTML") {
@@ -31,8 +31,8 @@ export default function Project4() {
       setReact(true);
     } else if (e.target.id == "Three.js") {
       setThree(true);
-    } else if (e.target.id == "Firebase") {
-      setFirebase(true);
+    } else if (e.target.id == "PHP") {
+      setPhp(true);
     }
   };
   const handleMouseLeave = () => {
@@ -40,22 +40,22 @@ export default function Project4() {
     setCss();
     setJs();
     setBoot();
-    setReact();
+    setReact(); 
     setThree();
-    setFirebase();
+    setPhp();
   };
   return (
     <div className="project-box">
       <div className="right-container">
-        <h5>WSU Online System Project</h5>
+        <h5>Salvatore High School Project</h5>
         <div className="description">
-        I have designed and developed an online system for Walter Sisulu University (WSU) 
-        that facilitates a range of functionalities to support student interactions 
-        and administrative processes. 
+        I have developed the official website for Salvatore High School using a combination of HTML, 
+        CSS, and JavaScript. This website serves as an online platform to showcase the schools 
+        information, activities, and resources. 
           <div className="tech-box">
           <div className="row">
             <div
-              className="single-box"id="React"
+              className="single-box"id="HTML"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
@@ -70,20 +70,20 @@ export default function Project4() {
               <img src={cssIco} className="tech-ico1" alt="html icon" />
               <span>{css ? "CSS" : ""}</span>
             </div>
-            <div className="single-box" id="CSS"
+            <div className="single-box" id="Bootstrap"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
-              <img src={jsIco} className="tech-ico1" alt="html icon" />
-              <span>{css ? "JavaS" : ""}</span>
+              <img src={bootIco} className="tech-ico1" alt="html icon" />
+              <span>{boot ? "Bootstrap" : ""}</span>
             </div>
             
-            <div className="single-box" id="CSS"
+            <div className="single-box" id="PHP"
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               <img src={phpIco} className="tech-ico1" alt="html icon" />
-              <span>{css ? "PHP" : ""}</span>
+              <span>{php ? "PHP" : ""}</span>
             </div>
           </div>
           </div>
@@ -91,7 +91,7 @@ export default function Project4() {
   
           <div className="links">
             <a
-              href="https://github.com/Teb94089/WSUProject"
+              href="https://github.com/Teb94089/SalvatoreProject"
               target="blank"
             >
               <img src={gitIco} className="liveIco" alt="github icon" />
@@ -114,7 +114,7 @@ export default function Project4() {
           </div>
      
       <div className="left-container">
-        <img src={page2} className="img-project2" />
+        <img src={page4} className="img-project2" />
       </div>
     </div>
   );

@@ -191,9 +191,413 @@
           
       }
 }
+/* IPHONE SE */
+@media only screen and (max-width: 667px) {
+    .testimonial-section .testi-item{
+        background-color: white;
+        padding: 10px;
+        border-radius: 30px 30px 30px 0;
+        width: 40%;
+    }
+   
+    .testimonial-section .testi-item p{
+        font-size: 10px;
+        line-height: 16px;
+        font-weight: 100;
+        margin: 0 0 5px;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 10px;
+    }
+      .testimonial-section .testi-comment .stars li {
+          display: inline-block;
+          margin: 0 1px;
+      }
+      .testimonial-section .testi-comment .stars li i {
+          font-size: 10px;
+          color: tomato;
+      }
+      .testimonial-section .client-info{
+          position: relative;
+          padding-left: 50px;
+          padding-top: 2px;
+          min-height: 60px;
+      }
+      .testimonial-section .client-info img{
+          height: 40px;
+          width: 40px;
+          border: 2px solid transparent;
+          border-color: black;
+          left: 0;
+          top: 0;
+          border-radius: 50%;
+          position: absolute;
+      }
+      .testimonial-section .client-info h5{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+          margin: 0 0 1px;
+      }
+      .testimonial-section .client-info p{
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 200;
+          margin: 0;
+          
+      }
+}
+/* IPHONE XR */
+@media only screen and (max-width: 896px) {
+    .testimonial-section .testi-item{
+        background-color: white;
+        padding: 10px;
+        border-radius: 30px 30px 30px 0;
+        width: 45%;
+    }
+   
+    .testimonial-section .testi-item p{
+        font-size: 12px;
+        line-height: 18px;
+        font-weight: 100;
+        margin: 0 0 5px;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 10px;
+    }
+      .testimonial-section .testi-comment .stars li {
+          display: inline-block;
+          margin: 0 1px;
+      }
+      .testimonial-section .testi-comment .stars li i {
+          font-size: 10px;
+          color: tomato;
+      }
+      .testimonial-section .client-info{
+          position: relative;
+          padding-left: 50px;
+          padding-top: 2px;
+          min-height: 60px;
+      }
+      .testimonial-section .client-info img{
+          height: 40px;
+          width: 40px;
+          border: 2px solid transparent;
+          border-color: black;
+          left: 0;
+          top: 0;
+          border-radius: 50%;
+          position: absolute;
+      }
+      .testimonial-section .client-info h5{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+          margin: 0 0 1px;
+      }
+      .testimonial-section .client-info p{
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 200;
+          margin: 0;
+          
+      }
+}
+
+/* IPHONE 12 pr0 */
+@media only screen and (max-width: 844px) {
+    .testimonial-section .testi-item{
+        background-color: white;
+        padding: 10px;
+        border-radius: 30px 30px 30px 0;
+        width: 40%;
+    
+    }
+   
+    .testimonial-section .testi-item p{
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 200;
+        margin: 0 0 10px;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 10px;
+    }
+      .testimonial-section .testi-comment .stars li {
+          display: inline-block;
+          margin: 0 1px;
+      }
+      .testimonial-section .testi-comment .stars li i {
+          font-size: 10px;
+          color: tomato;
+      }
+      .testimonial-section .client-info{
+          position: relative;
+          padding-left: 50px;
+          padding-top: 2px;
+          min-height: 60px;
+      }
+      .testimonial-section .client-info img{
+          height: 40px;
+          width: 40px;
+          border: 2px solid transparent;
+          border-color: black;
+          left: 0;
+          top: 0;
+          border-radius: 50%;
+          position: absolute;
+      }
+      .testimonial-section .client-info h5{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+          margin: 0 0 1px;
+      }
+      .testimonial-section .client-info p{
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 200;
+          margin: 0;
+          
+      }
+}
+/* Galaxy s20*/
+@media only screen and (max-width: 915px) {
+    .testimonial-section .testi-item{
+        background-color: white;
+        padding: 10px;
+        border-radius: 30px 30px 30px 0;
+        width: 40%;
+    
+    }
+   
+    .testimonial-section .testi-item p{
+        font-size: 10px;
+        line-height: 16px;
+        font-weight: 100;
+        margin: 0 0 5px;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 10px;
+    }
+      .testimonial-section .testi-comment .stars li {
+          display: inline-block;
+          margin: 0 1px;
+      }
+      .testimonial-section .testi-comment .stars li i {
+          font-size: 10px;
+          color: tomato;
+      }
+      .testimonial-section .client-info{
+          position: relative;
+          padding-left: 50px;
+          padding-top: 2px;
+          min-height: 60px;
+      }
+      .testimonial-section .client-info img{
+          height: 40px;
+          width: 40px;
+          border: 2px solid transparent;
+          border-color: black;
+          left: 0;
+          top: 0;
+          border-radius: 50%;
+          position: absolute;
+      }
+      .testimonial-section .client-info h5{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+          margin: 0 0 1px;
+      }
+      .testimonial-section .client-info p{
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 200;
+          margin: 0;
+          
+      }
+}
  
+/* IPHONE SE */
+@media only screen and (max-width: 653px) {
+    .testimonial-section .testi-item{
+        background-color: white;
+        padding: 10px;
+        border-radius: 30px 30px 30px 0;
+        width: 30%;
+    }
+   
+    .testimonial-section .testi-item p{
+        font-size: 10px;
+        line-height: 16px;
+        font-weight: 100;
+        margin: 0 0 5px;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 10px;
+    }
+      .testimonial-section .testi-comment .stars li {
+          display: inline-block;
+          margin: 0 1px;
+      }
+      .testimonial-section .testi-comment .stars li i {
+          font-size: 10px;
+          color: tomato;
+      }
+      .testimonial-section .client-info{
+          position: relative;
+          padding-left: 50px;
+          padding-top: 2px;
+          min-height: 60px;
+      }
+      .testimonial-section .client-info img{
+          height: 40px;
+          width: 40px;
+          border: 2px solid transparent;
+          border-color: black;
+          left: 0;
+          top: 0;
+          border-radius: 50%;
+          position: absolute;
+      }
+      .testimonial-section .client-info h5{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+          margin: 0 0 1px;
+      }
+      .testimonial-section .client-info p{
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 200;
+          margin: 0;
+          
+      }
+}
  
- 
+/* IPHONE SE */
+@media only screen and (max-width: 892px) {
+    .testimonial-section .testi-item{
+        background-color: white;
+        padding: 10px;
+        border-radius: 30px 30px 30px 0;
+        width: 40%;
+    }
+   
+    .testimonial-section .testi-item p{
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 100;
+        margin: 0 0 5px;
+        font-style: italic;
+    }
+    .testimonial-section .testi-item p .fa-quote-left{
+        margin-right: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-item p .fa-quote-right{
+        margin-left: 5px;
+        color: tomato;
+    
+    }
+    .testimonial-section .testi-comment .stars{
+      margin: 0 0 10px;
+    }
+      .testimonial-section .testi-comment .stars li {
+          display: inline-block;
+          margin: 0 1px;
+      }
+      .testimonial-section .testi-comment .stars li i {
+          font-size: 10px;
+          color: tomato;
+      }
+      .testimonial-section .client-info{
+          position: relative;
+          padding-left: 50px;
+          padding-top: 2px;
+          min-height: 60px;
+      }
+      .testimonial-section .client-info img{
+          height: 40px;
+          width: 40px;
+          border: 2px solid transparent;
+          border-color: black;
+          left: 0;
+          top: 0;
+          border-radius: 50%;
+          position: absolute;
+      }
+      .testimonial-section .client-info h5{
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 22px;
+          margin: 0 0 1px;
+      }
+      .testimonial-section .client-info p{
+          font-size: 12px;
+          line-height: 22px;
+          font-weight: 200;
+          margin: 0;
+          
+      }
+}
  
  
  

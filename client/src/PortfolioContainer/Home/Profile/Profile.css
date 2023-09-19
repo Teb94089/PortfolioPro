@@ -1,4 +1,4 @@
-.profile-container{
+ .profile-container{
     display: flex;
     align-items: center;
     text-align: center;
@@ -7,10 +7,11 @@
     min-height: fit-content;
     
 }
+/* small text*/
 .profile-parent{
     display: flex;
     align-items: center;
-    color: rgb(8, 46, 80);
+    color:white;
 }
 .profile-details-name{
     font-size: 24px;
@@ -26,8 +27,9 @@
     font-family:cursive ;
 }
 .primary-text{
-   color:rgb(8, 46, 80);
+   color:white;
 }
+/*name*/
 .highlighted-text{
     color: var(--dark-orange);
 }

@@ -1,8 +1,7 @@
 .main-container{
- 
   height: auto;
-  min-height: 20rem;
-  padding: 4rem 0;
+  min-height: 40rem;
+  padding: 10rem 0;
 }
 
 .section-projects {
@@ -225,14 +224,14 @@
         margin: 0px 20px 0px 20px;
       }
       @media only screen and (max-width: 950px) {
-        font-size: 0.6em;
+        font-size: 1.2em;
       }
       @media only screen and (max-width: 768px) {
-        font-size: 0.6em;
+        font-size: 1em;
         margin: 0px 10px 0px 10px;
       }
       @media only screen and (max-width: 500px) {
-        font-size: 0.4em;
+        font-size: 0.6em;
         margin: 0px 5px 0px 5px;
       }
     }
@@ -258,8 +257,8 @@
           }
         }
         .tech-ico2{
-          width: 30px;
-          height:30px;
+          width: 40px;
+          height:40px;
           margin-left: 10px;
           @media only screen and (max-width: 1110px) {
             width: 20px;
@@ -454,7 +453,7 @@
         margin-right: 10px;
       }
       @media only screen and (max-width: 1110px) {
-        width: 20px;
+        width: 10px;
       }
     }
   }

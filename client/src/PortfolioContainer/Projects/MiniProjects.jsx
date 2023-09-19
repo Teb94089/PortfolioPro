@@ -1,9 +1,9 @@
 import {} from 'react'
-import miniproj1 from "../Projects/public/img/financial.png";
+import miniproj1 from "../Projects/public/img/miniProject1.png";
 import miniproj2 from "../Projects/public/img/tax.png";
-import miniproj3 from "../Projects/public/img/financial.png";
-import miniproj4 from "../Projects/public/img/tax.png";
-import miniproj5 from "../Projects/public/img/financial.png";
+import miniproj3 from "../Projects/public/img/download.jpg";
+import miniproj4 from "../Projects/public/img/images.jpg";
+import miniproj5 from "../Projects/public/img/pro5.png";
 import gitIco from "../Projects/public/img/githubIco.png";
 
 
@@ -13,9 +13,9 @@ export default function MiniProjects() {
       <div className="single-box">
         <img src={miniproj1} className="project-img" alt="project image" />
         <div className="project-description">
-          React application with Bootstrap styles and Firebase authentication
+        I've created a chat app using ReactJS, Node.js, and Vite, implementing real-time communication with WebSockets.
           <a
-            href="https://github.com/Teb94089/MzamomtshaProject"
+            href="https://github.com/Teb94089/ChatApp"
             target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
@@ -23,20 +23,20 @@ export default function MiniProjects() {
         </div>
       </div>
       <div className="single-box">
-        <img src={miniproj2} className="project-img" alt="project image" />
+        <img src={miniproj3} className="project-img" alt="project image" />
         <div className="project-description">
-          Vanilla JS app that fetches and displays the current time and weather
-          <a href="https://github.com/Teb94089/MzamomtshaProject" target="_blank" rel="noreferrer">
+        I've successfully developed a bank app using Python.
+          <a href="https://github.com/Teb94089/BankApp" target="_blank" rel="noreferrer">
             <img src={gitIco} className="liveIco" alt="github icon" />
           </a>
         </div>
       </div>
       <div className="single-box">
-        <img src={miniproj3} className="project-img" alt="project image" />
+        <img src={miniproj2} className="project-img" alt="project image" />
         <div className="project-description">
-          React application with login, registration and dashboard component.
+        I've successfully developed a tax calculator app using Java
           <a
-          href="https://github.com/Teb94089/MzamomtshaProject"
+          href="https://github.com/Teb94089/TaxCalculator"
             target="_blank" rel="noreferrer"
           >
             <img src={gitIco} className="liveIco" alt="github icon" />
@@ -46,8 +46,7 @@ export default function MiniProjects() {
       <div className="single-box">
         <img src={miniproj4} className="project-img" alt="project image" />
         <div className="project-description">
-          Online store outline using HTML and CSS with no JavaScript. Contain
-          dropdown menu, tables, forms and other HTML elements.
+        I've developed Mocha Mama's Cafe using VB.Net!
           <a
             href="https://github.com/Teb94089/MzamomtshaProject"
             target="_blank" rel="noreferrer"
@@ -59,7 +58,7 @@ export default function MiniProjects() {
       <div className="single-box">
         <img src={miniproj5} className="project-img" alt="project image" />
         <div className="project-description">
-          A simple counter for learning Redux
+          A mobile voting Application using Java
           <a
             href="https://github.com/Teb94089/MzamomtshaProject"
             target="_blank" rel="noreferrer"

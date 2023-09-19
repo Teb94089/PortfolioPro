@@ -52,12 +52,13 @@ export default function AboutMe(props) {
           </div>
           
 
-          <span className="about-me-description ">
+          <div className="about-me-description ">
               <p>I am an experienced Software Developer and Quality Assurance professional with a robust background in both fields.My enthusiasm for embracing new technologies and development methodologies underscores my commitment to staying at the forefront of innovation in both fields.",
                  With a balanced skill set, I contribute effectively to software development and testing endeavors, ensuring seamless integration and optimal performance.
                </p>
-            </span>
+            </div>
           
+           
         </div>
           <div className="about-me-details ">
             <div className="about-me-options ">

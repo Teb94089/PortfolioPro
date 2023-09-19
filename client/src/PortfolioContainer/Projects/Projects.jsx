@@ -31,15 +31,7 @@ export default function Projects(props) {
         <Project2 />
         <Project3 />
         <Project4 />
-       
-        <div className="about-me-options ">
-            
-
-            {/* <NoBack   btnLink='/#project' btnText="Works"/> */}
-              <MiniProjects btnLink="/about" btnText="Read More"/>
-
-            </div>
-            
+        <MiniProjects />   
       </div>
     </div>
     </div>

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
-import { useRef, useState } from "react";
+import {  useState } from "react";
 
 import "./AboutMe.css";
 
@@ -82,10 +82,17 @@ const renderHighlight = () => {
        
         </div>
       )}
-
-      <button className="btn primary-btn " onClick={toggleReadMoreLess}>
+       <div className="about-me-options ">
+            <button className="btn primary-btn"
+                        onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+                    > Lets Chat! </button>
+                     <button className="btn highlighted-btn " onClick={toggleReadMoreLess}>
         {isShowMore ? "Read Less" : "Read More"}
       </button>
+            </div>
+     
+      
+     
     </div>
   );
 }

@@ -12,6 +12,7 @@ export default function Profile() {
     return splitter.splitGraphemes(string);
 
    }
+   
 
   return (
     <div className="profile-container">
@@ -73,10 +74,10 @@ export default function Profile() {
               Knack of building applications with front and back end operations.
             </span>
           </div>
+          
           <div className="profile-options">
           <button className='btn primary-btn'
-                     onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                        
+                     onClick={() => ScrollService.scrollHandler.scrollToHireMe()} 
                         >{" "}Hire Me{""}
                     </button>
             <a href="Yolanda TebeniCV.pdf" download="Yolanda TebeniCV.pdf">
