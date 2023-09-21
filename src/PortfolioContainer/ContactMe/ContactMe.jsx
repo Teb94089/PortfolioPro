@@ -47,20 +47,24 @@ export default function Contactme(props) {
   console.log(name);
   const submitForm = async (e) => {
     e.preventDefault();
+
     try {
-      let data = {
+      if (!name || !email || !message) {
+        setBanner('Please fill all the fields.');
+        toast.error('Please fill all the fields.');
+        return;
+      }
+
+      const data = {
         name,
         email,
-        message,
+        message
       };
+
       setBool(true);
-      const res = await axios.post("http://localhost:5000/ContactMe", data);
-      console.log('Received a contact request');
-      if (name.length === 0 || email.length === 0 || message.length === 0) {
-        setBanner(res.data.msg);
-        toast.error(res.data.msg);
-        setBool(false);
-      } else if (res.status === 200) {
+      const res = await axios.post("http://localhost:3000/sendmail", data);
+
+      if (res.status === 200) {
         setBanner(res.data.msg);
         toast.success(res.data.msg);
         setBool(false);
@@ -70,7 +74,9 @@ export default function Contactme(props) {
         setMessage("");
       }
     } catch (error) {
-      alert('something went wrong' ,error)
+      console.error('Something went wrong', error);
+      alert('Something went wrong');
+      setBool(false);
     }
   };
 

@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import ScreenHeading from "../../Utilities/ScreenHeading/ScreenHeading";
 import ScrollService from "../../Utilities/ScrollService";
 import Animations from "../../Utilities/Animations";
-import {  useState } from "react";
+import { useState } from "react";
 
 import "./AboutMe.css";
 
@@ -13,7 +13,6 @@ export default function AboutMeMore(props) {
     setIsShowMore(!isShowMore);
   };
 
-
   const SCREEN_CONSTSANTS = {
     highlights: {
       bullets: [
@@ -23,13 +22,12 @@ export default function AboutMeMore(props) {
         "Experienced in database management and SQL for efficient data storage and retrieval.",
         "Capable of developing robust and responsive user interfaces with HTML, CSS, and JavaScript.",
         "Strong problem-solving and troubleshooting skills to ensure smooth functionality across the entire application stack.",
-        
       ],
       heading: "Here are a Few Highlights:",
     },
-};
+  };
 
-const SCREEN_CONSTANT = {
+  const SCREEN_CONSTANT = {
     highlightt: {
       bullett: [
         "Proficient in Selenium for web automation testing",
@@ -39,10 +37,10 @@ const SCREEN_CONSTANT = {
         "Capable of automating web and desktop applications effectively",
         "Strong focus on improving software quality and streamlining testing processes.",
       ],
-    }
-}
+    },
+  };
 
-const renderHighlight = () => {
+  const renderHighlight = () => {
     if (SCREEN_CONSTSANTS.highlights.bullets) {
       return SCREEN_CONSTSANTS.highlights.bullets.map((value, i) => (
         <div className="highlight" key={i}>
@@ -51,7 +49,6 @@ const renderHighlight = () => {
         </div>
       ));
     }
-   
   };
 
   const renderHighlights = () => {
@@ -63,9 +60,7 @@ const renderHighlight = () => {
         </div>
       ));
     }
-    
   };
-  
 
   return (
     <div className="about-me-highlights">
@@ -79,20 +74,20 @@ const renderHighlight = () => {
             <span>{SCREEN_CONSTANT.highlights}</span>
           </div>
           {renderHighlights()}
-       
         </div>
       )}
-       <div className="about-me-options ">
-            <button className="btn primary-btn"
-                        onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-                    > Lets Chat! </button>
-                     <button className="btn highlighted-btn " onClick={toggleReadMoreLess}>
-        {isShowMore ? "Read Less" : "Read More"}
-      </button>
-            </div>
-     
-      
-     
+      <div className="about-me-options ">
+        <button className="btn highlighted-btn " onClick={toggleReadMoreLess}>
+          {isShowMore ? "Read Less" : "Read More"}
+        </button>
+        <button
+          className="btn primary-btn"
+          onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+        >
+          {" "}
+          Lets Chat!{" "}
+        </button>
+      </div>
     </div>
   );
 }
