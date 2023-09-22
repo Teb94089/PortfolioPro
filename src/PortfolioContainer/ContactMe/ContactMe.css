@@ -2,9 +2,9 @@
     min-height: 100vh;
     /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); 
     background-image: url('../../assets//Home/bg.jpg'); */
-    min-height: 40rem;
-    padding: 18rem 0;
-    margin: 100px 0 -450px 0;
+    min-height: 20rem;
+    padding: 8rem 0;
+    margin: 50px 0 -400px 0;
   }
   
   .central-form {

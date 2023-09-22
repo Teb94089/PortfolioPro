@@ -1,6 +1,6 @@
 .main-container{
   height: auto;
-  min-height: 40rem;
+  min-height: 30rem;
   padding: 10rem 0;
 }
 
@@ -388,7 +388,7 @@
         width: 120px;
       }
     }
-    .project-description {
+    .project-descriptionM {
       width: 140px;
       text-align: center;
       display: flex;
@@ -403,6 +403,8 @@
       }
       @media only screen and (max-width: 768px) {
         margin: 0px 15px 0px 15px;
+        font-size: smaller;
+
       }
 
       img {
@@ -454,6 +456,15 @@
       }
       @media only screen and (max-width: 1110px) {
         width: 10px;
+      }
+      @media only screen and (max-width: 1300px) {
+      }
+      @media only screen and (max-width: 950px) {
+      }
+      @media only screen and (max-width: 768px) {
+        margin: 0px 15px 0px 15px;
+        font-size: smaller;
+        
       }
     }
   }

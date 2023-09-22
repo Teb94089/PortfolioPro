@@ -1,13 +1,13 @@
-const express = require("express");
-const cors = require("cors");
-const bodyParser = require("body-parser");
-const nodemailer = require("nodemailer");
-const details = require("./details.json");
+import express from "express";
+import cors from "cors";
+import { json } from "body-parser";
+import { createTransport } from "nodemailer";
+import { email, password } from "./details.json";
 
 const app = express();
 
 app.use(cors());
-app.use(bodyParser.json());
+app.use(json());
 
 app.listen(3000, () => {
   console.log("The server started on port 3000!");
@@ -31,19 +31,19 @@ app.post("/sendmail", (req, res) => {
 });
 
 async function sendMail(user) {
-  const transporter = nodemailer.createTransport({
+  const transporter = createTransport({
     host: "smtp.gmail.com",
     port: 587,
     secure: false,
     auth: {
-      user: details.email,
-      pass: details.password
+      user: email,
+      pass: password
     }
   });
 
   const mailOptions = {
     from: `"${user.name}" <${user.email}>`,
-    to: details.email,
+    to: email,
     subject: "Contact Request",
     html:`
     <h3>Informations<h3/>

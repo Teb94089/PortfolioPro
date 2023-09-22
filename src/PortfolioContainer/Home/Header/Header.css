@@ -7,7 +7,7 @@
 /*contantme nav*/
 .header-parent {
   width: 100%;
-  background-color: #dee1dd;
+  background-color: #d8e2d4;
   display: flex;
   justify-content: space-around;
   position: fixed;
@@ -70,7 +70,8 @@
   /*IPAD PRO RESPONSIVENESS*/
   @media only screen and (max-width: 1110px) {
     header-parent {
-      width: 80%;
+      width: 100%;
+      position: fixed;
       
      
     }
@@ -87,7 +88,7 @@
     .header-parent {  
       width: 100%;
       padding: 0 40px;
-      position:absolute;
+      position: fixed;
     }
     .header-options {
       display: flex;
@@ -99,15 +100,15 @@
       height: 60vh;
       width: 100%;
       justify-content:space-between;
-      background-color: #1f2235;
+      background-color: #d8e2d4;
       z-index: 1000;
       opacity: 0.5;
-      color: white;
+      color: #1f2235;
      
     }
     .header-option-seperator {
       margin: 0;
-      color: white;
+      color: #1f2235;
     }
     .selected-header-option {
       color: var(--white);
@@ -116,7 +117,7 @@
       font-size: 36px;
       cursor: pointer;
       margin: 0px 10px;
-      color:var(--white)
+      color: #1f2235;
     }
     .show-hamburger-options {
       left:0;

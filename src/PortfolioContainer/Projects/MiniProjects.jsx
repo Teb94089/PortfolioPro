@@ -12,7 +12,7 @@ export default function MiniProjects() {
     <div className="mini-projects-box">
       <div className="single-box">
         <img src={miniproj1} className="project-img" alt="project image" />
-        <div className="project-description">
+        <div className="project-descriptionM">
         I've created a chat app using ReactJS, Node.js, and Vite, implementing real-time communication with WebSockets.
           <a
             href="https://github.com/Teb94089/ChatApp"
@@ -24,7 +24,7 @@ export default function MiniProjects() {
       </div>
       <div className="single-box">
         <img src={miniproj3} className="project-img" alt="project image" />
-        <div className="project-description">
+        <div className="project-descriptionM">
         I've successfully developed a bank app using Python.
           <a href="https://github.com/Teb94089/BankApp" target="_blank" rel="noreferrer">
             <img src={gitIco} className="liveIco" alt="github icon" />
@@ -33,7 +33,7 @@ export default function MiniProjects() {
       </div>
       <div className="single-box">
         <img src={miniproj2} className="project-img" alt="project image" />
-        <div className="project-description">
+        <div className="project-descriptionM">
         I've successfully developed a tax calculator app using Java
           <a
           href="https://github.com/Teb94089/TaxCalculator"
@@ -45,7 +45,7 @@ export default function MiniProjects() {
       </div>
       <div className="single-box">
         <img src={miniproj4} className="project-img" alt="project image" />
-        <div className="project-description">
+        <div className="project-descriptionM">
         I've developed Mocha Mama's Cafe using VB.Net!
           <a
             href="https://github.com/Teb94089/MzamomtshaProject"
@@ -57,7 +57,7 @@ export default function MiniProjects() {
       </div>
       <div className="single-box">
         <img src={miniproj5} className="project-img" alt="project image" />
-        <div className="project-description">
+        <div className="project-descriptionM">
           A mobile voting Application using Java
           <a
             href="https://github.com/Teb94089/MzamomtshaProject"

@@ -77,16 +77,11 @@ export default function AboutMeMore(props) {
         </div>
       )}
       <div className="about-me-options ">
-        <button className="btn highlighted-btn " onClick={toggleReadMoreLess}>
+        <button className="btn primary-btn" onClick={toggleReadMoreLess}>
           {isShowMore ? "Read Less" : "Read More"}
         </button>
-        <button
-          className="btn primary-btn"
-          onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
-        >
-          {" "}
-          Lets Chat!{" "}
-        </button>
+       
+          
       </div>
     </div>
   );

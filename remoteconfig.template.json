@@ -1,0 +1,12 @@
+{
+    "param1": {
+      "value": "default_value_param1",
+      "description": "Parameter 1 description"
+    },
+    "param2": {
+      "value": "default_value_param2",
+      "description": "Parameter 2 description"
+    }
+    
+  }
+  

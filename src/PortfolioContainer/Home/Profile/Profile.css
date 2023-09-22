@@ -27,23 +27,25 @@
     font-family:cursive ;
 }
 .primary-text{
-   color:white;
+    color:#1f2235;
 }
 /*name*/
 .highlighted-text{
     color: var(--dark-orange);
 }
 .profile-role-tagline{
-    font: size 19px;;
+    font-size: 19px;
     margin: 5px 0 0 0;
     font-family: Poppins Light;
+    color:#1f2235;
+
 }
 .profile-options .highlighted-btn{
     margin: 0 0 0 28px;
 }    
 .profile-options .highlighted-btn:hover{
     margin: 0 0 0 28px;
-    background-color: cornsilk;
+    background-color: #d8e2d4;
     color: #111;
 }
 .profile-picture{
@@ -74,8 +76,9 @@
 }
 .colz .colz-icon i{
     color:rgb(8, 46, 80);
-    padding: 16px;
+    padding: 8px;
     padding-left: 0px;
+   
 }
 .colz .colz-icon i:hover{
     transform: scale(1.5);

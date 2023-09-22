@@ -7,12 +7,12 @@ import "./Profile.css";
 
 export default function Profile() {
 
-   const stringSplitter = (string)=>{
+  const stringSplitter = (string) => {
     const splitter = new GraphemeSplitter();
     return splitter.splitGraphemes(string);
 
-   }
-   
+  }
+
 
   return (
     <div className="profile-container">
@@ -20,11 +20,11 @@ export default function Profile() {
         <div className="profile-details">
           <div className="colz">
             <div className="colz-icon">
-              
+
               <a href="https://www.linkedin.com/in/nonkululeko-tebeni-938a86190/">
                 <i className="fa fa-linkedin"></i>
               </a>
-          <a href="https://github.com/Teb94089"> 
+              <a href="https://github.com/Teb94089">
                 <i className="fa fa-github"></i>
               </a>
             </div>
@@ -40,46 +40,49 @@ export default function Profile() {
             </span>
           </div>
           <div className="profile-details-role">
-           
-          <span className='primary-text'>
-          
-                        {" "}
-                        <h1>
-                            {" "}
-                            <Typewriter
+
+            <span className='primary-text'>
+
+              {" "}
+              <h1>
+                {" "}
+                <Typewriter
                   options={{
-                  strings:[
-                    "Enthusiastic Dev 😎",
-                    
-                    "Software Developer 💻",
-                    
-                    "Fullstack Developer💻",
-                    
-                    "Software Automation Tester🔴",
-                    
-                    "Quality Assurer  🌐",
-                    
-                  ],
-                  delay: 150,
-                  pauseFor: 1500,
-                  autoStart: true,
-                  loop: true,
-                  stringSplitter: stringSplitter,
-                }}
+                    strings: [
+                      "Enthusiastic Dev 😎",
+
+                      "Software Developer 💻",
+
+                      "Fullstack Developer💻",
+
+                      "Software Automation Tester🔴",
+
+                      "Quality Assurer  🌐",
+
+                    ],
+                    delay: 150,
+                    pauseFor: 1500,
+                    autoStart: true,
+                    loop: true,
+                    stringSplitter: stringSplitter,
+                  }}
                 />
-                        </h1>
-                        </span>
-                  
+              </h1>
+            </span>
+
             <span className="profile-role-tagline">
               Knack of building applications with front and back end operations.
             </span>
           </div>
-          
+
           <div className="profile-options">
-          <button className='btn primary-btn'
-                     onClick={() => ScrollService.scrollHandler.scrollToHireMe()} 
-                        >{" "}Hire Me{""}
-                    </button>
+            <button
+              className='btn primary-btn'
+              onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
+            >
+              Hire Me
+            </button>
+
             <a href="Yolanda TebeniCV.pdf" download="Yolanda TebeniCV.pdf">
               <button className="btn highlighted-btn">Get Resume</button>
             </a>

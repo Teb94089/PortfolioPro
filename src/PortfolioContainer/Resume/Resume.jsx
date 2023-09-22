@@ -56,7 +56,7 @@ const Resume = (props) => {
       { label: "Programming Skills", logoSrc: logoSrcP },
       { label: "Application Skills", logoSrc: logoSrcA },
       { label: "Projects", logoSrc: logoSrcPr },
-      { label: "Interests", logoSrc: logoSrcI },
+      
     ];
   
   
@@ -279,7 +279,7 @@ const Resume = (props) => {
         
       </div>,
   
-      /* Interests */
+      /* Interests 
       <div className="resume-screen-container" key="interests">
         
         <ResumeHeading
@@ -298,7 +298,9 @@ const Resume = (props) => {
         />
         
       </div>,
+      */
     ];
+    
 
   const handleCarousal = (index) => {
       let offsetHeight = 360;
