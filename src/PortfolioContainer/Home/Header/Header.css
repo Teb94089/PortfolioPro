@@ -7,7 +7,7 @@
 /*contantme nav*/
 .header-parent {
   width: 100%;
-  background-color: #d8e2d4;
+  background-color: grey;
   display: flex;
   justify-content: space-around;
   position: fixed;
@@ -88,8 +88,10 @@
     .header-parent {  
       width: 100%;
       padding: 0 40px;
-      position: fixed;
+      position:relative;
+      top:0;
     }
+   
     .header-options {
       display: flex;
       flex-direction: column;
@@ -97,18 +99,18 @@
       left: -100%;
       transition: all 0.8s ease-out;
       top: 0px;
-      height: 60vh;
+      height: 50vh;
       width: 100%;
-      justify-content:space-between;
-      background-color: #d8e2d4;
+      justify-content:space-around;
+      background-color: grey;
       z-index: 1000;
       opacity: 0.5;
-      color: #1f2235;
+     
      
     }
     .header-option-seperator {
       margin: 0;
-      color: #1f2235;
+     
     }
     .selected-header-option {
       color: var(--white);
@@ -117,7 +119,8 @@
       font-size: 36px;
       cursor: pointer;
       margin: 0px 10px;
-      color: #1f2235;
+    
+      
     }
     .show-hamburger-options {
       left:0;

@@ -98,7 +98,7 @@ export default function Project4() {
               <span>GitHub</span>
             </a>
             <a
-              href="https://wsuhtml.000webhostapp.com/index.html"
+              href="https://frabjous-zuccutto-4c8778.netlify.app/"
               target="_blank" rel="noreferrer"
             >
               <img
